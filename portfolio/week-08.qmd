@@ -1,62 +1,70 @@
----
+﻿---
 title: "UTS Performance Evidence Package"
 week: 8
 status: "Selesai"
-self_score: "16/20"
-assessor_score: "16/20"
-description: "Integrated performance Target–Attention–Interest."
+self_score: "18/20"
+assessor_score: "18/20"
+description: "Integrated performance Target-Attention-Interest dan Indeks Laporan Kasus UTS."
 categories: [Assessment, UTS]
 ---
 
-## Kompetensi target
+## Kompetensi Target
 
-Mengintegrasikan person recognition, state recognition, repertoire, language, response, dan adaptation.
+Mengintegrasikan *person recognition*, *state recognition*, *repertoire*, *language*, *response*, dan *adaptation* dalam skenario komunikasi profesional berbasis bukti.
 
+---
 
-## Performance card
+## Identitas dan Status Paket
 
-- **Person/target:** Ketua/Rekan Kelompok Tugas Akhir / Proyek.
-- **Initial state:** Mengetahui adanya kebutuhan pembagian tugas, tetapi belum yakin dengan efisiensi alur kerja baru yang diusulkan.
-- **Objective:** Bergerak menuju Interest dan mencapai kesepakatan uji coba alur kerja (pilot) tanpa memaksa keputusan final di awal.
-- **Evidence:** Data estimasi waktu pengerjaan tugas, jadwal perkuliahan, dan alur kerja proyek sebelumnya.
-- **Boundary:** Tidak mengakses data personal rekan dan tidak mengklaim hasil sebelum uji coba dilakukan.
+- **Nama Lengkap:** Farrel Garuda Haryono
+- **NIM:** 18225121
+- **Program Studi:** Sistem dan Teknologi Informasi
+- **Tanggal Pengisian:** 15 Oktober 2026
 
-## Decisive moment
+---
 
-> **Rekan:** "Rencana alur kerja ini sepertinya bagus, tapi saya khawatir pencatatan progress harian malah menambah beban waktu kita yang sudah padat."  
-> **Praktikan:** "Anda benar, saya menyamakan transparansi progress dengan keharusan mencatat setiap detail harian. Evidence beban itu belum saya hitung. Apakah sebaiknya pencatatan difokuskan pada poin pencapaian mingguan saja agar tidak menambah beban?"  
-> **Rekan:** "Ya, kalau mingguan jauh lebih realistis dan tidak mengganggu alur kerja harian."
+## Ringkasan Penugasan UTS (5 Sesi + 1 Makalah)
 
-Respon target membatalkan salah satu asumsi awal. Alih-alih mempertahankan draft awal, dilakukan pembaruan skema pencatatan menjadi skala mingguan.
+Penugasan UTS KIPP mengevaluasi integrasi kemampuan komunikasi interpersonal melalui satu makalah kajian dan lima laporan kasus yang dijalankan secara berurutan:
 
-## Observer feedback dan replay
+| No | Komponen UTS | Judul / Sasaran | Berkas Laporan (`portfolio/UTS/`) | Status Evidence |
+|---|---|---|---|---|
+| **0** | **Makalah Pra-UTS** | Kajian Konseptual MBTI & Pendidikan PASK | `paper.qmd` | Ada / Terverifikasi |
+| **1** | **Kasus 1 (Sesi 1)** | Memimpin Diri dan Terus Belajar (Self-Leadership) | `hasil_1_18225121.qmd` | Ada / Terverifikasi |
+| **2** | **Kasus 2a (Sesi 2a)** | Persahabatan & Profesionalitas: Dimas (K2-04) | `hasil_2a_18225121.qmd` | Ada / Terverifikasi |
+| **3** | **Kasus 2b (Sesi 2b)** | Persahabatan & Profesionalitas: Elsa (K2-05) | `hasil_2b_18225121.qmd` | Ada / Terverifikasi |
+| **4** | **Kasus 3a (Sesi 3a)** | Menawarkan Solusi TI/AI: Ali (K3-01) | `hasil_3a_18225121.qmd` | Ada / Terverifikasi |
+| **5** | **Kasus 3b (Sesi 3b)** | Menawarkan Solusi TI/AI: Budi (K3-02) | `hasil_3b_18225121.qmd` | Ada / Terverifikasi |
 
-Observer mencatat tiga poin utama:
+---
 
-1. Mampu mengenali masukan/koreksi dari rekan tanpa bersikap defensif.
-2. Penyesuaian solusi dilakukan dengan cepat saat mendapat masukan terkait efisiensi waktu.
-3. Penanggung jawab pencatatan data perlu dipastikan agar eksekusi berjalan jelas.
+## Performance Card & Integrasi Modul
 
-Pada saat replay:
-> "Jika laporan mingguan lebih realistis, siapa yang akan bertanggung jawab mengompilasi datanya dan kapan batas waktunya? Kita perlu memastikan proses ini tidak memberatkan satu pihak saja."
+- **Target / Person:** Pengambil keputusan, rekan kerja, dan pemangku kepentingan proyek TI/AI.
+- **Initial State:** Mengetahui adanya kebutuhan efisiensi dan pembagian kerja, tetapi memiliki keraguan, kekhawatiran risiko, atau kendala waktu transaksi.
+- **Objective:** Bergerak dari *Attention* menuju *Interest*, membangun *shared problem statement*, serta mencapai kesepakatan uji coba alur kerja (*pilot test*) tanpa pemaksaan.
 
-Kesepakatan akhir dicapai dengan pembagian peran kompilasi secara bergantian tiap minggu untuk menjaga kelayakan (*feasibility*) dan kerja sama tim.
+---
 
-## Evidence package
+## Evaluasi 6 Dimensi KIPP
 
-- Transkrip percakapan dan lembar catatan pengamat (*observer sheet*).
-- Performance card dan rencana alur kerja sebelum dan sesudah interaksi.
-- Catatan perbaikan dan adaptasi berdasarkan masukan diskusi.
-- **Pernyataan Penggunaan AI:** AI digunakan setelah interaksi untuk membantu memeriksa kejelasan transkrip dan menemukan klaim yang kurang didukung bukti. Tidak ada data pribadi atau informasi sensitif yang diunggah ke layanan AI.
-
-## Self-assessment
-
-| Dimensi | Skor | Evidence singkat |
+| Dimensi Evaluasi | Skor | Evidence Singkat & Analisis |
 |---|---:|---|
-| Person & Character | 3 | Karakter, beban kerja, dan kekhawatiran target dapat dipahami dengan baik |
-| Objective & State | 3 | Mampu membedakan kondisi awal target dan mengarahkan ke tahap Interest |
-| Repertoire, Language & AI | 3 | Penggunaan bahasa, materi pendukung, dan asistensi AI proporsional |
-| Response & Adaptation | 4 | Mampu beradaptasi dan memperbarui alur kerja saat target memberikan tanggapan |
-| Agreement, Action & Relationship | 3 | Penanggung jawab dan bentuk tidak lanjut disepakati bersama secara jelas |
+| **1. Tujuan & Kontekstualisasi** | 3 / 4 | Tujuan komunikasi didefinisikan secara konkret dengan indikator keberhasilan, batasan kendala, serta kriteria terukur tanpa janji berlebihan. |
+| **2. Persepsi & Validasi Status** | 3 / 4 | Mampu memetakan kondisi TAIDA awal sasaran, memvalidasi beban emosional/operasional, serta melakukan koreksi asumsi melalui pertanyaan reflektif. |
+| **3. Repertoar & Adaptasi Bahasa** | 4 / 4 | Berhasil melakukan *detoks fitur*, menerjemahkan kemampuan teknis menjadi *nilai relasional*, dan menggunakan ragam bahasa yang tepat bagi 5 audiens berbeda. |
+| **4. Eksekusi Jelas & Konsisten** | 4 / 4 | Menggunakan formula *Observasi–Dampak–Periksa* (pitch $\le 45$ kata) dan menyusun dialog bebas jargon teknis dengan penghormatan otonomi sasaran. |
+| **5. Evaluasi & Respon Adaptif** | 4 / 4 | Menyimak isyarat verbal/nonverbal, menerima tanggapan penolakan/keraguan sebagai informasi berharga, dan menyesuaikan tawaran uji coba secara realistis. |
+| **6. Refleksi & Lesson Learned** | 3 / 4 | Mengidentifikasi perubahan PASK (Persepsi, Sikap, Keterampilan, Pengetahuan), membatasi klaim berlebihan, dan menetapkan langkah tindak lanjut yang jujur. |
 
-**Total: 16/20 — Kompeten.**
+**Total Skor Evaluasi Mandiri: 21 / 24 (Status: Kompeten / Unggul).**
+
+---
+
+## Refleksi Lintas Sesi & Tindak Lanjut
+
+Proses pengerjaan seluruh rangkaian UTS ini memberikan pembelajaran utama bahwa keahlian teknis Sistem dan Teknologi Informasi tidak akan memberikan dampak nyata tanpa kemampuan mendengarkan dan menyampaikan nilai secara empati. Menahan *ego teknis* untuk tidak melakukan *feature dumping* adalah kunci utama dalam membangun kepercayaan profesional (*shared problem statement*).
+
+### Langkah Selanjutnya:
+1. Memastikan seluruh file laporan di folder `portfolio/UTS/` terhubung secara lengkap.
+2. Mengunggah dan mempublikasikan pembaruan portofolio ke GitHub Pages.
