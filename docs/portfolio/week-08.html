@@ -308,6 +308,7 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#langkah-selanjutnya" id="toc-langkah-selanjutnya" class="nav-link" data-scroll-target="#langkah-selanjutnya">Langkah Selanjutnya:</a></li>
   </ul></li>
+  <li><a href="#portofolio-uts" id="toc-portofolio-uts" class="nav-link" data-scroll-target="#portofolio-uts">Portofolio UTS</a></li>
   </ul>
 </nav>
     </div>
@@ -489,9 +490,20 @@ window.Quarto = {
 <li>Memastikan seluruh file laporan di folder <code>portfolio/UTS/</code> terhubung secara lengkap.</li>
 <li>Mengunggah dan mempublikasikan pembaruan portofolio ke GitHub Pages.</li>
 </ol>
-
-
 </section>
+</section>
+<section id="portofolio-uts" class="level2">
+<h2 class="anchored" data-anchor-id="portofolio-uts">Portofolio UTS</h2>
+<ul>
+<li><a href="../portfolio/UTS/paper.html">Makalah Pra-UTS</a></li>
+<li><a href="../portfolio/UTS/hasil_1.html">Laporan Sesi 1</a></li>
+<li><a href="../portfolio/UTS/hasil_2a.html">Laporan Sesi 2a</a></li>
+<li><a href="../portfolio/UTS/hasil_2b.html">Laporan Sesi 2b</a></li>
+<li><a href="../portfolio/UTS/hasil_3a.html">Laporan Sesi 3a</a></li>
+<li><a href="../portfolio/UTS/hasil_3b.html">Laporan Sesi 3b</a></li>
+</ul>
+
+
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Kembali ke atas</a></main> <!-- /main -->
@@ -568,7 +580,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/Fargudd\.github\.io\/kipp-students\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
