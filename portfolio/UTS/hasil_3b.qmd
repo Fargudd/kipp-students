@@ -163,5 +163,3 @@ Pada uji ulang (U004), mahasiswa berhasil mengantisipasi sifat Cyntia yang mudah
 | **Total** | **100%** | **Belum dihitung** |
 
 **Nilai akhir UTS = Belum dihitung** (menunggu seluruh komponen lengkap dan moderasi dosen).
-
-{{< include "../includes/uts-penilaian.md" >}}
