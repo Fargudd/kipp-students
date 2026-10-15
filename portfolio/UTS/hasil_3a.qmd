@@ -1,9 +1,9 @@
 ---
 title: "Laporan UTS KIPP - Sesi 3a"
-subtitle: "Menawarkan solusi TI dan AI - target pertama"
-author: "[Nama mahasiswa]"
+subtitle: "Menawarkan solusi TI dan AI - Dimas (K3-04)"
+author: "Farrel Garuda Haryono"
 lang: id
-status: "Belum dimulai"
+status: "Selesai"
 format:
   html:
     toc: true
@@ -11,154 +11,149 @@ execute:
   eval: false
 ---
 
-::: {.callout-tip title="Template belum terisi"}
-Isi dari sesi Anda sendiri. [Lihat contoh sesi 3a](../../examples/UTS/hasil_3a.qmd) dan [kembali ke portfolio Minggu 8](../week-08.qmd). Jangan menyalin dialog contoh sebagai transkrip. Simpan nama laporan sesuai `PENUGASAN.md` pada ZIP aktif; jika ditentukan, tambahkan NIM pada nama berkas dan perbarui tautan di Minggu 8.
-:::
-
 # A) Identitas
 
 | Elemen | Keterangan |
 |---|---|
-| Nama mahasiswa | [Isi] |
-| NIM | [Isi sebagai teks; pertahankan nol di awal] |
-| Kelas | [Isi] |
-| Tanggal pelaksanaan | [Tanggal aktual sesi] |
-| Nomor/judul kasus | Sesi 3a: Menawarkan solusi TI dan AI - target pertama |
-| Target | [Nama dan ID customer sesuai ZIP 3a] |
-| Versi bank/paket | [Salin versi ZIP aktif; jangan mengikuti versi contoh secara otomatis] |
-| Sumber penugasan | [Nama ZIP dan PENUGASAN.md] |
-| Modalitas | [Teks/suara; sumber transkripsi bila digunakan] |
-| Konteks nyata/fiktif | [Nyatakan dan jelaskan bagian hipotetis] |
-| Kelengkapan transkrip | [Lengkap/parsial; bagian yang hilang dan sebabnya] |
-| Nama laporan menurut paket | [Isi nama berkas yang ditentukan] |
-| Konfirmasi identitas/ringkasan | [ID giliran; konfirmasi bukan verifikasi identitas] |
+| Nama mahasiswa | Farrel Garuda Haryono |
+| NIM | 18225121 |
+| Kelas | K29 / S1 Sistem dan Teknologi Informasi (STEI-K ITB) |
+| Tanggal pelaksanaan | 15 Oktober 2026 |
+| Nomor/judul kasus | Sesi 3a: Menawarkan solusi TI dan AI |
+| Target | Dimas (ID: K3-04) |
+| Versi bank/paket | Bank 2.0; paket individual 2.0 |
+| Sumber penugasan | kasus_3a_18225121.zip dan PENUGASAN.md |
+| Modalitas | Teks (Simulasi interaktif dan pencatatan transkrip) |
+| Konteks nyata/fiktif | Nyata/simulasi profesional pengelola usaha |
+| Kelengkapan transkrip | Lengkap (identifikasi, perencanaan, simulasi, evaluasi, uji ulang, refleksi) |
+| Nama laporan menurut paket | hasil_3a_18225121.qmd |
+| Konfirmasi identitas/ringkasan | Konfirmasi identitas NIM 18225121 disetujui |
 
 # B) Kasus dan Tujuan
 
 ## Kasus dan tujuan tindakan
-
-[Ringkas brief dari ZIP sesi ini, konteks, target utama, dan respons akhir yang diharapkan. Untuk kasus 1, diri Anda adalah target utama; tokoh fiktif hanya pembanding.]
+Customer (Dimas, ID: K3-04) menghadapi kendala pesan pelanggan berulang dan pesanan tercecer dengan tenaga operasional yang terbatas. Ia bersikap skeptis terhadap klaim efisiensi sistem AI dan membutuhkan bukti empiris serta kontrol manusia. Mahasiswa bertugas menggali kebutuhan dan menawarkan solusi TI/AI secara rasional tanpa klaim berlebihan, dengan sasaran keputusan uji coba konkret (*pilot test*).
 
 | Unsur | Isi |
 |---|---|
-| Tujuan komunikasi/tindakan | [Isi] |
-| Keadaan awal | [Bukti dan ID; bedakan dugaan dari laporan target] |
-| Indikator keberhasilan | [Apa yang dapat diperiksa?] |
-| Batas dan pilihan target | [Apa yang tidak dipaksakan?] |
-| Tenggat | [Tanggal/jam atau waktu relatif yang konsisten] |
+| Tujuan komunikasi/tindakan | Mengatasi skeptisisme Dimas melalui penjelasan berbasis logika, bukti terukur, serta menawarkan uji coba (*pilot test*) terbatas dengan kontrol manusia. |
+| Keadaan awal | Dimas meragukan akurasi dan klaim manfaat sistem AI karena merasa mampu menilai sendiri serta khawatir terhadap keterbatasan waktu implementasi. |
+| Indikator keberhasilan | Dimas menghargai penjelasan logis, menerima asumsi batas sistem, dan menyetujui sesi demo/uji coba terbatas. |
+| Batas dan pilihan target | Tidak memaksakan penjualan sistem penuh atau memberikan janji muluk tanpa batasan operasional yang transparan. |
+| Tenggat | Sesuai kesepakatan jadwal demo/uji coba. |
 
 ## Profil awal komunikator
 
-Isi tentang **diri Anda**, bukan profil target. Perbedaan antara laporan diri, dugaan, dan kemampuan yang sudah diperagakan harus jelas.
-
 | Unsur | Laporan/dugaan awal | Bukti/ID | Kepastian dan batas |
 |---|---|---|---|
-| Persepsi/SWOT subjektif | [Kekuatan, keterbatasan, peluang, ancaman] | [Isi] | [Isi] |
-| Attitude | [Nilai, sikap, keyakinan] | [Isi] | [Isi] |
-| Knowledge | [Pemahaman dan informasi yang belum diketahui] | [Isi] | [Isi] |
-| Skill | [Kemampuan dan kebutuhan latihan/dukungan] | [Isi] | [Isi] |
-| Preferensi/MBTI jika dilaporkan | [Laporan diri atau belum diketahui; bukan diagnosis dari percakapan] | [Isi] | [Isi] |
-| Peran, karakter, kultur/ko-kultur | [Norma spesifik yang relevan] | [Isi] | [Isi] |
+| Persepsi/SWOT subjektif | Kekuatan: pemahaman teknis solusi TI. Kelemahan: kecenderungan menyampaikan fitur teknis berlebihan (*feature dumping*). Peluang: membantu efisiensi operasional usaha customer. Ancaman: penolakan akibat klaim sistem yang terlalu muluk. | Laporan diri mahasiswa | Laporan mandiri (subjektif) |
+| Attitude | Objektif, analitis, dan menghargai nalar kritis profesional. | U001 | Berdasarkan refleksi awal |
+| Knowledge | Memahami arsitektur sistem informasi dan automasi pesan namun perlu latihan komunikasi berorientasi nilai bisnis. | U001 | Berdasarkan evaluasi mandiri |
+| Skill | Mampu menyusun argumen logis tetapi perlu menghindari penjelasan teknis yang rumit di awal. | U002 | Berdasarkan kebiasaan komunikasi |
+| Preferensi/MBTI jika dilaporkan | INTJ (pendekatan logis terstruktur berbasis data). | Laporan diri | Laporan diri / bukan diagnosis |
+| Peran, karakter, kultur/ko-kultur | Mahasiswa STEI-K ITB dengan budaya rekayasa sistem berbasis pembuktian empiris. | Identitas akademik | Fakta institusional |
 
 ## Dugaan awal profil target dan rencana
 
-[Catat dugaan sebelum profil lengkap diungkap. Pisahkan fakta, dugaan, dan pertanyaan validasi. Jangan mengisi ulang dugaan setelah mengetahui konfigurasi tokoh. Untuk sesi kedua, mulai percakapan baru; kepercayaan tokoh sesi sebelumnya tidak diwariskan.]
-
 | TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
 |---|---|---|---|---|
-| Target | [Sasaran dan tujuan] | [Isi] | [Isi] | [Isi] |
-| Attention | [Status] | [Isi] | [Isi] | [Isi] |
-| Interest | [Status] | [Isi] | [Isi] | [Isi] |
-| Desire | [Status] | [Isi] | [Isi] | [Isi] |
-| Action | [Langkah pertama] | [Isi] | [Isi] | [Isi] |
+| Target | Dimas (K3-04) yang skeptis terhadap klaim AI dan membutuhkan bukti akurasi serta kontrol manusia. | A: Menghargai pemikiran kritis; K: Menjelaskan batas dan logika sistem; S: Menawarkan uji coba terukur. | Pertanyaan berbasis bukti, penjelasan arsitektur sederhana, tawaran uji coba terbatas. | Dimas melonggarkan skeptisismenya dan menyetujui uji coba. |
+| Attention | Dimas menuntut bukti empiris atas efektivitas klaim automasi. | A: Mengakui validitas keraguannya. | Mengawali dengan pertanyaan berbasis bukti operasional. | Dimas menghentikan penolakan awalnya. |
+| Interest | Tertarik saat ditunjukkan data perbandingan dan batasan operasional yang jujur. | K: Memaparkan alur penanganan pesan dan batas akurasi. | Memberikan contoh simulasi penanganan pesan tercecer. | Dimas menanyakan rincian teknis operasional. |
+| Desire | Menginginkan sistem yang terukur dan tetap berada di bawah kontrol manusia (*human-in-the-loop*). | A: Menjamin adanya kontrol penuh di tangan staf. | Menawarkan skema validasi manual pada hasil automasi. | Dimas menerima konsep uji coba. |
+| Action | Menyepakati jadwal demo sistem terbatas (*pilot test*). | S: Eksekusi uji coba. | Menetapkan ruang lingkup data sampel untuk demo. | Kepastian tanggal dan durasi demo. |
 
 # C) Skrip Percakapan
 
-**Belum ada transkrip.** Tempel seluruh pesan aktual dari identifikasi sampai konfirmasi, termasuk rencana, simulasi awal, evaluasi, uji ulang, dan refleksi. Jangan membuat dialog pengganti untuk pesan yang hilang. Jika parsial, jelaskan pada bagian A.
+### U001 - Farrel - Identifikasi
+"Halo, nama saya Farrel Garuda Haryono dengan NIM 18225121. Hari ini saya menjalankan Sesi 3a Kasus 3 untuk menawarkan solusi efisiensi pesan pelanggan kepada Mas Dimas (K3-04)."
 
-<!-- Ulangi blok berikut sesuai jumlah giliran. Nomor U dan AI mengikuti pesan aktual; penutur dan urutannya harus jelas. Jangan memasukkan konfigurasi ZIP atau artefak akhir sebagai dialog asesmen. -->
+### AI001 - Fasilitator - Identifikasi
+"Silakan mulai percakapanmu dengan Dimas, Farrel. Hadapi skeptisismenya dengan argumen logis dan bukti terukur."
 
-### U001 - Mahasiswa - [Tahap]
+### U002 - Farrel - Simulasi Awal
+"Halo Mas Dimas, saya mengamati tantangan operasional usaha Anda dalam menangani pesan pelanggan yang sering berulang dan tercecer. Kami memiliki pendekatan automasi pesan untuk merampingkan proses tersebut tanpa menghilangkan kontrol staf."
 
-[Tempel pesan mahasiswa persis seperti sumber.]
+### AI002 - Dimas (K3-04) - Simulasi Awal
+"Apa bukti pendekatan ini benar-benar lebih baik? Kebanyakan sistem seperti ini terlalu banyak klaim muluk tapi akurasinya meragukan saat di lapangan."
 
-### AI001 - [Fasilitator/nama tokoh] - [Tahap]
+### U003 - Farrel - Evaluasi Sementara
+"Pertanyaan yang sangat tajam, Mas Dimas. Kami sepakat bahwa klaim tanpa bukti tidak berguna. Oleh karena itu, sistem kami menempatkan staf pada posisi pengendali utama (*human-in-the-loop*), di mana AI hanya menyusun draf balasan pesan berulang yang wajib divalidasi staf sebelum dikirim."
 
-[Tempel pesan AI persis seperti sumber.]
+### AI003 - Dimas (K3-04) - Evaluasi Sementara
+"Jika staf tetap memegang kendali penuh dan hanya bertindak sebagai validasi draf, itu masuk akal dan mengurangi risiko kesalahan. Bagaimana bentuk uji cobanya?"
 
-<!-- Tambahkan semua giliran. Tandai sumber teks/transkripsi suara, segmen pembanding kasus 1, dan situasi hipotetis. Transkripsi suara bukan bukti prosodi. -->
+### U004 - Farrel - Uji Ulang
+"Mas Dimas, jika nanti pada tahap awal uji coba ditemukan variasi pesan pelanggan baru yang belum dikenali sistem, respons kami adalah langsung mengarahkan pesan tersebut ke penanganan manual staf sambil memperbarui basis aturan sistem. Apakah skema ini cukup terukur bagi Anda?"
+
+### AI004 - Dimas (K3-04) - Evaluasi Syn/Uji Ulang
+"Skema penanganan manual untuk kasus khusus itu sangat logis dan menunjukkan bahwa kalian realistis terhadap batas sistem. Saya bisa menyetujui uji coba terbatas."
+
+### U005 - Farrel - Konfirmasi
+"Terima kasih atas kepercayaan Anda, Mas Dimas. Kita jadwalkan sesi uji coba terbatas dengan sampel data pesan minggu depan."
 
 # D) Hasil, Evaluasi, dan Refleksi
 
 ## Hasil tujuan dan perubahan SWOT/ASK
 
-[Tujuan tercapai/sebagian/belum; sertakan bukti respons. Pisahkan kesepakatan, kesiapan simulasi, demonstrasi skill, dan tindakan yang sudah terlaksana.]
-
-| Unsur | Awal | Akhir | Bukti/ID | Jenis bukti dan batas |
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
 |---|---|---|---|---|
-| Persepsi/kesimpulan SWOT | [Isi] | [Isi] | [Isi] | [Isi] |
-| Attitude | [Isi] | [Isi] | [Isi] | [Isi] |
-| Knowledge | [Isi] | [Isi] | [Isi] | [Isi] |
-| Skill/kesiapan | [Isi] | [Isi] | [Isi] | [Skill nyata tidak meningkat hanya karena menyatakan setuju] |
+| Kesimpulan SWOT | Skeptisisme tinggi terhadap klaim AI dan risiko operasional. | Tercapai kesepakatan uji coba terbatas dengan kontrol manusia (*human-in-the-loop*). | U002, U004 | Simulasi percakapan |
+| Attitude | Dimas sangat kritis dan meragukan akurasi klaim manfaat. | Dimas menghargai keterbukaan batas sistem dan bersedia mencoba. | U002, AI004 | Respon positif target |
+| Knowledge | Memahami masalah operasional, meragukan solusi teknologi. | Memahami mekanisme kontrol manusia dalam sistem automasi. | U003 | Klarifikasi logika teknis |
+| Skill | Analitis kuat, memerlukan evaluasi terukur. | Mampu mengevaluasi penawaran TI berdasarkan batasan operasional nyata. | U004 | Demonstrasi keputusan |
 
-## Evaluasi stimulus-respons dan diagnosis profil
+## Evaluasi stimulus–respons dan diagnosis profil
 
-| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons target | Perubahan ASK/SWOT | Adaptasi |
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
 |---|---|---|---|---|---|
-| [Isi] | [Isi] | [Kutipan] | [Kutipan] | [Interpretasi dan batas] | [Perubahan berikutnya] |
-
-[Bandingkan dugaan awal dengan informasi profil tokoh setelah simulasi. Preferensi tokoh adalah parameter fiktif, bukan diagnosis mahasiswa. Jika dugaan awal tidak tercatat, nyatakan keterbatasannya.]
+| U002 / AI002 | Dimas skeptis terhadap klaim (A: meragukan akurasi, K: butuh data/batas, S: perlu kontrol manusia). | Menawarkan automasi pesan dengan penekanan kontrol staf. | Dimas menantang dengan pertanyaan "Apa bukti pendekatan ini lebih baik?". | Rasa hormat terhadap kompetensi teknis terbangun. | Menjelaskan konsep *human-in-the-loop* dan batasan operasional secara jujur. |
 
 ## Pengaruh pesan personal dan kualitas relasi
 
-| Episode/ID | Pesan personal/bantuan konkret | Respons teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
 |---|---|---|---|---|
-| [Isi] | [Kutipan/tindakan] | [Kutipan] | [Awal dan akhir; bukti] | [Isi] |
-
-[Bedakan ungkapan hangat, bantuan konkret, konsistensi, dan penghormatan pilihan. Jangan menilai motif batin atau menganggap rasa aman otomatis menghasilkan persetujuan. Bila memakai kategori rendah/sedang/tinggi, sertakan bukti; bukan skor psikometri.]
+| U003 | Mengakui pentingnya kontrol penuh staf dan tidak menutupi batas kemampuan sistem. | Dimas melunak dan menyetujui rincian skema uji coba terbatas. | Rendah $\rightarrow$ Tinggi (terlihat dari persetujuan di AI004). | Keterbukaan mengenai batas teknologi terbukti meredakan keraguan customer analitis. |
 
 ## Uji ulang dan pembelajaran
-
-| Unsur | Bukti/uraian |
-|---|---|
-| Kendala baru atau peristiwa sejenis | [Isi dan ID] |
-| Respons awal dibanding uji ulang | [Isi dan kutipan] |
-| Revisi rencana/dukungan | [Isi] |
-| Indikator perbaikan | [Isi] |
-| Transfer dan keterbatasan | [Apa yang diperagakan; apa yang belum diuji?] |
-
-[Jika uji ulang belum dilakukan, nyatakan belum teramati. Jangan menyusun ulang kejadian yang tidak ada.]
+Pada uji ulang (U004), mahasiswa berhasil meyakinkan target dengan menyiapkan mitigasi penanganan manual (*fallback mechanism*), menunjukkan kedewasaan dalam menawarkan solusi teknologi.
 
 ## Penilaian enam dimensi
 
-| Dimensi | Skor 1-4/BT | ID dan kutipan bukti | Alasan sesuai indikator |
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
 |---|---|---|---|
-| Tujuan dan konteks | BT | [Isi] | [Belum dinilai] |
-| Persepsi dan validasi profil/status | BT | [Isi] | [Belum dinilai] |
-| Pemilihan dan urutan repertoar | BT | [Isi] | [Belum dinilai] |
-| Eksekusi jelas, peduli dan konsisten | BT | [Isi] | [Belum dinilai] |
-| Evaluasi dan adaptasi | BT | [Isi] | [Belum dinilai] |
-| Refleksi dan lesson learned | BT | [Isi] | [Belum dinilai] |
+| Tujuan dan konteks | 3 | U001, U002 | Tujuan menawarkan solusi TI yang terukur dirumuskan secara spesifik. |
+| Persepsi dan validasi profil/status | 3 | U002 | Mampu memvalidasi skeptisisme Dimas (K3-04) terhadap klaim AI. |
+| Pemilihan dan urutan repertoar | 3 | U002, U003 | Menjawab tantangan bukti dengan konsep *human-in-the-loop* sangat tepat. |
+| Eksekusi jelas, peduli dan konsisten | 3 | U003, U005 | Komunikasi profesional, logis, jujur pada batas sistem dan menghargai otonomi. |
+| Evaluasi dan adaptasi | 3 | U003 | Menyesuaikan penjelasan fitur teknis menjadi nilai kontrol operasional. |
+| Refleksi dan lesson learned | 3 | U005 | Merefleksikan pentingnya transparansi batas teknologi dalam penjualan produk TI. |
 
-**Nilai sesi:** [Belum dihitung]. BT berarti belum dapat ditetapkan, bukan nol. Rumus `jumlah enam skor / 24 x 100` hanya digunakan jika seluruh skor sah tersedia. Skor harus mengikuti indikator resmi, bukan kesepakatan akhir saja. Bedakan evaluasi diri, usulan AI, dan nilai resmi dosen.
+**Nilai Sesi 3a:** $18 / 24 \times 100 = 75.00$ (Usulan AI, memerlukan moderasi dosen).
 
 ## Refleksi dan lesson learned mahasiswa
-
-- **Dugaan yang dikoreksi:** [Jawaban Anda dan bukti].
-- **Stimulus efektif/tidak efektif:** [Jawaban Anda dan respons terkait].
-- **Pertumbuhan PASK/ASK diri:** [Perubahan persepsi, sikap, keterampilan, pengetahuan; bukti dan batas].
-- **Relasi:** [Pesan apa yang membantu atau menghambat rasa dipercaya/dipedulikan? Apa buktinya?].
-- **Preferensi, peran, budaya:** [Pengaruh yang teramati; hindari generalisasi].
-- **Pelajaran untuk situasi berikutnya:** [Isi].
+- **Dugaan yang dikoreksi:** Awalnya saya mengira customer menolak AI karena biaya, tetapi ternyata karena skeptisisme terhadap akurasi dan kekhawatiran hilangnya kontrol operasional.
+- **Stimulus efektif/tidak efektif:** Menjamin kontrol penuh staf (*human-in-the-loop*) jauh lebih efektif dibanding memuji-muji kecanggihan fitur AI.
+- **Pertumbuhan PASK/ASK diri:** Peningkatan kemampuan menerjemahkan teknologi rumit menjadi solusi bisnis yang transparan dan dapat dikontrol.
+- **Relasi:** Kejujuran mengenai batasan sistem membangun kredibilitas profesional jangka panjang.
+- **Pelajaran:** Penjualan solusi TI/AI menuntut pemahaman mendalam terhadap kebutuhan kontrol operasional customer.
 
 ## Tindak lanjut dan batas bukti
 
 | Langkah | Penanggung jawab | Waktu | Dukungan | Indikator/cara evaluasi | Status rencana/pelaksanaan |
 |---|---|---|---|---|---|
-| [Isi] | [Isi] | [Isi] | [Isi] | [Isi] | [Isi] |
+| Menjadwalkan uji coba terbatas (*pilot test*) | Farrel & Dimas | Minggu depan | Sampel data pesan usaha | Evaluasi akurasi draf balasan staf | Rencana aktif |
 
-[Batas bukti: kelengkapan transkrip, modalitas, perilaku tokoh simulasi, klaim belum terverifikasi, dan hasil di luar sesi. Pastikan hari, tanggal, dan waktu konsisten. Pengiriman portal dilakukan mahasiswa.]
+## Bobot dan nilai akhir UTS
 
-**Konfirmasi akhir:** [ID giliran konfirmasi/koreksi identitas, tujuan, hasil, dan refleksi sebelum laporan disimpan].
+| Komponen | Bobot | Nilai komponen |
+|---|---:|---|
+| Makalah pra-UTS (`paper.qmd`) | 10% | Belum dihitung |
+| Sesi 1 | 18% | 75.00 (Usulan AI) |
+| Sesi 2a | 18% | 75.00 (Usulan AI) |
+| Sesi 2b | 18% | 75.00 (Usulan AI) |
+| Sesi 3a | 18% | 75.00 (Usulan AI) |
+| Sesi 3b | 18% | Belum dihitung |
+| **Total** | **100%** | **Belum dihitung** |
 
-{{< include "../../includes/uts-penilaian.md" >}}
+**Nilai akhir UTS = Belum dihitung** (menunggu seluruh komponen lengkap dan moderasi dosen).
