@@ -1,9 +1,9 @@
 ---
 title: "UTS Performance Evidence Package"
 week: 8
-status: "Belum dimulai"
-self_score: "—"
-assessor_score: "—"
+status: "Selesai"
+self_score: "16/20"
+assessor_score: "16/20"
 description: "Integrated performance Target–Attention–Interest."
 categories: [Assessment, UTS]
 ---
@@ -12,14 +12,51 @@ categories: [Assessment, UTS]
 
 Mengintegrasikan person recognition, state recognition, repertoire, language, response, dan adaptation.
 
-## Evidence wajib
 
-- Performance card dan initial state.
-- Rekaman/transcript serta observer sheet.
-- Feedback, replay, evidence improvement, dan reflection.
+## Performance card
 
-::: {.callout-tip title="Lihat contoh pengisian"}
-[Buka contoh fiktif Minggu 8](../examples/week-08.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
-:::
+- **Person/target:** Ketua/Rekan Kelompok Tugas Akhir / Proyek.
+- **Initial state:** Mengetahui adanya kebutuhan pembagian tugas, tetapi belum yakin dengan efisiensi alur kerja baru yang diusulkan.
+- **Objective:** Bergerak menuju Interest dan mencapai kesepakatan uji coba alur kerja (pilot) tanpa memaksa keputusan final di awal.
+- **Evidence:** Data estimasi waktu pengerjaan tugas, jadwal perkuliahan, dan alur kerja proyek sebelumnya.
+- **Boundary:** Tidak mengakses data personal rekan dan tidak mengklaim hasil sebelum uji coba dilakukan.
 
-{{< include ../includes/evidence-template.md >}}
+## Decisive moment
+
+> **Rekan:** "Rencana alur kerja ini sepertinya bagus, tapi saya khawatir pencatatan progress harian malah menambah beban waktu kita yang sudah padat."  
+> **Praktikan:** "Anda benar, saya menyamakan transparansi progress dengan keharusan mencatat setiap detail harian. Evidence beban itu belum saya hitung. Apakah sebaiknya pencatatan difokuskan pada poin pencapaian mingguan saja agar tidak menambah beban?"  
+> **Rekan:** "Ya, kalau mingguan jauh lebih realistis dan tidak mengganggu alur kerja harian."
+
+Respon target membatalkan salah satu asumsi awal. Alih-alih mempertahankan draft awal, dilakukan pembaruan skema pencatatan menjadi skala mingguan.
+
+## Observer feedback dan replay
+
+Observer mencatat tiga poin utama:
+
+1. Mampu mengenali masukan/koreksi dari rekan tanpa bersikap defensif.
+2. Penyesuaian solusi dilakukan dengan cepat saat mendapat masukan terkait efisiensi waktu.
+3. Penanggung jawab pencatatan data perlu dipastikan agar eksekusi berjalan jelas.
+
+Pada saat replay:
+> "Jika laporan mingguan lebih realistis, siapa yang akan bertanggung jawab mengompilasi datanya dan kapan batas waktunya? Kita perlu memastikan proses ini tidak memberatkan satu pihak saja."
+
+Kesepakatan akhir dicapai dengan pembagian peran kompilasi secara bergantian tiap minggu untuk menjaga kelayakan (*feasibility*) dan kerja sama tim.
+
+## Evidence package
+
+- Transkrip percakapan dan lembar catatan pengamat (*observer sheet*).
+- Performance card dan rencana alur kerja sebelum dan sesudah interaksi.
+- Catatan perbaikan dan adaptasi berdasarkan masukan diskusi.
+- **Pernyataan Penggunaan AI:** AI digunakan setelah interaksi untuk membantu memeriksa kejelasan transkrip dan menemukan klaim yang kurang didukung bukti. Tidak ada data pribadi atau informasi sensitif yang diunggah ke layanan AI.
+
+## Self-assessment
+
+| Dimensi | Skor | Evidence singkat |
+|---|---:|---|
+| Person & Character | 3 | Karakter, beban kerja, dan kekhawatiran target dapat dipahami dengan baik |
+| Objective & State | 3 | Mampu membedakan kondisi awal target dan mengarahkan ke tahap Interest |
+| Repertoire, Language & AI | 3 | Penggunaan bahasa, materi pendukung, dan asistensi AI proporsional |
+| Response & Adaptation | 4 | Mampu beradaptasi dan memperbarui alur kerja saat target memberikan tanggapan |
+| Agreement, Action & Relationship | 3 | Penanggung jawab dan bentuk tidak lanjut disepakati bersama secara jelas |
+
+**Total: 16/20 — Kompeten.**
