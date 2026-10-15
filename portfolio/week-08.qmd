@@ -72,8 +72,8 @@ Proses pengerjaan seluruh rangkaian UTS ini memberikan pembelajaran utama bahwa 
 ## Portofolio UTS
 
 - [Makalah Pra-UTS](UTS/paper.qmd)
-- [Laporan Sesi 1](UTS/hasil_1.qmd)
-- [Laporan Sesi 2a](UTS/hasil_2a.qmd)
-- [Laporan Sesi 2b](UTS/hasil_2b.qmd)
-- [Laporan Sesi 3a](UTS/hasil_3a.qmd)
-- [Laporan Sesi 3b](UTS/hasil_3b.qmd)
+- [Laporan Sesi 1](UTS/hasil_1_18225121.qmd)
+- [Laporan Sesi 2a](UTS/hasil_2a_18225121.qmd)
+- [Laporan Sesi 2b](UTS/hasil_2b_18225121.qmd)
+- [Laporan Sesi 3a](UTS/hasil_3a_18225121.qmd)
+- [Laporan Sesi 3b](UTS/hasil_3b_18225121.qmd)

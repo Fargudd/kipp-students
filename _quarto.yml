@@ -92,11 +92,11 @@ website:
         - section: "Portofolio UTS"
           contents:
             - portfolio/UTS/paper.qmd
-            - portfolio/UTS/hasil_1.qmd
-            - portfolio/UTS/hasil_2a.qmd
-            - portfolio/UTS/hasil_2b.qmd
-            - portfolio/UTS/hasil_3a.qmd
-            - portfolio/UTS/hasil_3b.qmd
+            - portfolio/UTS/hasil_1_18225121.qmd
+            - portfolio/UTS/hasil_2a_18225121.qmd
+            - portfolio/UTS/hasil_2b_18225121.qmd
+            - portfolio/UTS/hasil_3a_18225121.qmd
+            - portfolio/UTS/hasil_3b_18225121.qmd
         - portfolio/week-09.qmd
         - portfolio/week-10.qmd
         - portfolio/week-11.qmd
