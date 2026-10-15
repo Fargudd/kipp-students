@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Makalah pra-UTS dan lima laporan kasus individual.">
+<meta name="description" content="Integrated performance Target-Attention-Interest dan Indeks Laporan Kasus UTS.">
 
 <title>week-08 – Portfolio KIPP-2</title>
 <style>
@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -152,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolio/week-08.html">Portfolio Minggu 8 — UTS KIPP</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolio/week-08.html">UTS Performance Evidence Package</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -215,7 +244,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-08.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Portfolio Minggu 8 — UTS KIPP</span></a>
+ <span class="menu-text">UTS Performance Evidence Package</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -270,19 +299,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Di halaman ini</h2>
    
   <ul>
-<<<<<<< HEAD
-  <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi target</a></li>
-  <li><a href="#performance-card" id="toc-performance-card" class="nav-link" data-scroll-target="#performance-card">Performance card</a></li>
-  <li><a href="#decisive-moment" id="toc-decisive-moment" class="nav-link" data-scroll-target="#decisive-moment">Decisive moment</a></li>
-  <li><a href="#observer-feedback-dan-replay" id="toc-observer-feedback-dan-replay" class="nav-link" data-scroll-target="#observer-feedback-dan-replay">Observer feedback dan replay</a></li>
-  <li><a href="#evidence-package" id="toc-evidence-package" class="nav-link" data-scroll-target="#evidence-package">Evidence package</a></li>
-  <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a></li>
-=======
-  <li><a href="#identitas-dan-status-paket" id="toc-identitas-dan-status-paket" class="nav-link active" data-scroll-target="#identitas-dan-status-paket">Identitas dan status paket</a></li>
-  <li><a href="#makalah-dan-lima-laporan" id="toc-makalah-dan-lima-laporan" class="nav-link" data-scroll-target="#makalah-dan-lima-laporan">Makalah dan lima laporan</a></li>
-  <li><a href="#bobot-dan-nilai-akhir-uts" id="toc-bobot-dan-nilai-akhir-uts" class="nav-link" data-scroll-target="#bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</a></li>
-  <li><a href="#rekap-nilai-komponen" id="toc-rekap-nilai-komponen" class="nav-link" data-scroll-target="#rekap-nilai-komponen">Rekap nilai komponen</a></li>
->>>>>>> 9c9756d68983c295f72446d607c31cc25aecd4ea
+  <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi Target</a></li>
+  <li><a href="#identitas-dan-status-paket" id="toc-identitas-dan-status-paket" class="nav-link" data-scroll-target="#identitas-dan-status-paket">Identitas dan Status Paket</a></li>
+  <li><a href="#ringkasan-penugasan-uts-5-sesi-1-makalah" id="toc-ringkasan-penugasan-uts-5-sesi-1-makalah" class="nav-link" data-scroll-target="#ringkasan-penugasan-uts-5-sesi-1-makalah">Ringkasan Penugasan UTS (5 Sesi + 1 Makalah)</a></li>
+  <li><a href="#performance-card-integrasi-modul" id="toc-performance-card-integrasi-modul" class="nav-link" data-scroll-target="#performance-card-integrasi-modul">Performance Card &amp; Integrasi Modul</a></li>
+  <li><a href="#evaluasi-6-dimensi-kipp" id="toc-evaluasi-6-dimensi-kipp" class="nav-link" data-scroll-target="#evaluasi-6-dimensi-kipp">Evaluasi 6 Dimensi KIPP</a></li>
+  <li><a href="#refleksi-lintas-sesi-tindak-lanjut" id="toc-refleksi-lintas-sesi-tindak-lanjut" class="nav-link" data-scroll-target="#refleksi-lintas-sesi-tindak-lanjut">Refleksi Lintas Sesi &amp; Tindak Lanjut</a>
+  <ul class="collapse">
+  <li><a href="#langkah-selanjutnya" id="toc-langkah-selanjutnya" class="nav-link" data-scroll-target="#langkah-selanjutnya">Langkah Selanjutnya:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -291,12 +316,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Portfolio Minggu 8 — UTS KIPP</h1>
+<h1 class="title">UTS Performance Evidence Package</h1>
 </div>
 
 <div>
   <div class="description">
-    Makalah pra-UTS dan lima laporan kasus individual.
+    Integrated performance Target-Attention-Interest dan Indeks Laporan Kasus UTS.
   </div>
 </div>
 
@@ -313,114 +338,99 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<<<<<<< HEAD
 <section id="kompetensi-target" class="level2">
-<h2 class="anchored" data-anchor-id="kompetensi-target">Kompetensi target</h2>
-<p>Mengintegrasikan person recognition, state recognition, repertoire, language, response, dan adaptation.</p>
+<h2 class="anchored" data-anchor-id="kompetensi-target">Kompetensi Target</h2>
+<p>Mengintegrasikan <em>person recognition</em>, <em>state recognition</em>, <em>repertoire</em>, <em>language</em>, <em>response</em>, dan <em>adaptation</em> dalam skenario komunikasi profesional berbasis bukti.</p>
+<hr>
 </section>
-<section id="performance-card" class="level2">
-<h2 class="anchored" data-anchor-id="performance-card">Performance card</h2>
-<ul>
-<li><strong>Person/target:</strong> Ketua/Rekan Kelompok Tugas Akhir / Proyek.</li>
-<li><strong>Initial state:</strong> Mengetahui adanya kebutuhan pembagian tugas, tetapi belum yakin dengan efisiensi alur kerja baru yang diusulkan.</li>
-<li><strong>Objective:</strong> Bergerak menuju Interest dan mencapai kesepakatan uji coba alur kerja (pilot) tanpa memaksa keputusan final di awal.</li>
-<li><strong>Evidence:</strong> Data estimasi waktu pengerjaan tugas, jadwal perkuliahan, dan alur kerja proyek sebelumnya.</li>
-<li><strong>Boundary:</strong> Tidak mengakses data personal rekan dan tidak mengklaim hasil sebelum uji coba dilakukan.</li>
-</ul>
-</section>
-<section id="decisive-moment" class="level2">
-<h2 class="anchored" data-anchor-id="decisive-moment">Decisive moment</h2>
-<blockquote class="blockquote">
-<p><strong>Rekan:</strong> “Rencana alur kerja ini sepertinya bagus, tapi saya khawatir pencatatan progress harian malah menambah beban waktu kita yang sudah padat.”<br>
-<strong>Praktikan:</strong> “Anda benar, saya menyamakan transparansi progress dengan keharusan mencatat setiap detail harian. Evidence beban itu belum saya hitung. Apakah sebaiknya pencatatan difokuskan pada poin pencapaian mingguan saja agar tidak menambah beban?”<br>
-<strong>Rekan:</strong> “Ya, kalau mingguan jauh lebih realistis dan tidak mengganggu alur kerja harian.”</p>
-</blockquote>
-<p>Respon target membatalkan salah satu asumsi awal. Alih-alih mempertahankan draft awal, dilakukan pembaruan skema pencatatan menjadi skala mingguan.</p>
-</section>
-<section id="observer-feedback-dan-replay" class="level2">
-<h2 class="anchored" data-anchor-id="observer-feedback-dan-replay">Observer feedback dan replay</h2>
-<p>Observer mencatat tiga poin utama:</p>
-<ol type="1">
-<li>Mampu mengenali masukan/koreksi dari rekan tanpa bersikap defensif.</li>
-<li>Penyesuaian solusi dilakukan dengan cepat saat mendapat masukan terkait efisiensi waktu.</li>
-<li>Penanggung jawab pencatatan data perlu dipastikan agar eksekusi berjalan jelas.</li>
-</ol>
-<p>Pada saat replay: &gt; “Jika laporan mingguan lebih realistis, siapa yang akan bertanggung jawab mengompilasi datanya dan kapan batas waktunya? Kita perlu memastikan proses ini tidak memberatkan satu pihak saja.”</p>
-<p>Kesepakatan akhir dicapai dengan pembagian peran kompilasi secara bergantian tiap minggu untuk menjaga kelayakan (<em>feasibility</em>) dan kerja sama tim.</p>
-</section>
-<section id="evidence-package" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-package">Evidence package</h2>
-<ul>
-<li>Transkrip percakapan dan lembar catatan pengamat (<em>observer sheet</em>).</li>
-<li>Performance card dan rencana alur kerja sebelum dan sesudah interaksi.</li>
-<li>Catatan perbaikan dan adaptasi berdasarkan masukan diskusi.</li>
-<li><strong>Pernyataan Penggunaan AI:</strong> AI digunakan setelah interaksi untuk membantu memeriksa kejelasan transkrip dan menemukan klaim yang kurang didukung bukti. Tidak ada data pribadi atau informasi sensitif yang diunggah ke layanan AI.</li>
-</ul>
-</section>
-<section id="self-assessment" class="level2">
-<h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
-=======
-<div class="callout callout-style-default callout-tip callout-titled" title="Mulai mengisi">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Mulai mengisi
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Baca <a href="../lk/lk-UTS/index.html">instruksi UTS</a>, jalankan ZIP sesuai NIM, lalu isi makalah dan lima laporan pada tabel berikut. <a href="../examples/week-08.html">Lihat contoh jawaban Minggu 8</a> untuk acuan struktur dan analisis. Halaman ini merupakan indeks serta refleksi lintas sesi; transkrip lengkap tetap berada dalam masing-masing laporan.</p>
-</div>
-</div>
 <section id="identitas-dan-status-paket" class="level2">
-<h2 class="anchored" data-anchor-id="identitas-dan-status-paket">Identitas dan status paket</h2>
+<h2 class="anchored" data-anchor-id="identitas-dan-status-paket">Identitas dan Status Paket</h2>
+<ul>
+<li><strong>Nama Lengkap:</strong> Farrel Garuda Haryono</li>
+<li><strong>NIM:</strong> 18225121</li>
+<li><strong>Program Studi:</strong> Sistem dan Teknologi Informasi</li>
+<li><strong>Tanggal Pengisian:</strong> 15 Oktober 2026</li>
+</ul>
+<hr>
+</section>
+<section id="ringkasan-penugasan-uts-5-sesi-1-makalah" class="level2">
+<h2 class="anchored" data-anchor-id="ringkasan-penugasan-uts-5-sesi-1-makalah">Ringkasan Penugasan UTS (5 Sesi + 1 Makalah)</h2>
+<p>Penugasan UTS KIPP mengevaluasi integrasi kemampuan komunikasi interpersonal melalui satu makalah kajian dan lima laporan kasus yang dijalankan secara berurutan:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemen</th>
-<th>Isi mahasiswa</th>
+<th>No</th>
+<th>Komponen UTS</th>
+<th>Judul / Sasaran</th>
+<th>Berkas Laporan (<code>portfolio/UTS/</code>)</th>
+<th>Status Evidence</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Nama</td>
-<td>[Isi]</td>
+<td><strong>0</strong></td>
+<td><strong>Makalah Pra-UTS</strong></td>
+<td>Kajian Konseptual MBTI &amp; Pendidikan PASK</td>
+<td><code>paper.qmd</code></td>
+<td>Ada / Terverifikasi</td>
 </tr>
 <tr class="even">
-<td>NIM</td>
-<td>[Isi sebagai teks; pertahankan nol di awal]</td>
+<td><strong>1</strong></td>
+<td><strong>Kasus 1 (Sesi 1)</strong></td>
+<td>Memimpin Diri dan Terus Belajar (Self-Leadership)</td>
+<td><code>hasil_1_18225121.qmd</code></td>
+<td>Ada / Terverifikasi</td>
 </tr>
 <tr class="odd">
-<td>Kelas</td>
-<td>[Isi]</td>
+<td><strong>2</strong></td>
+<td><strong>Kasus 2a (Sesi 2a)</strong></td>
+<td>Persahabatan &amp; Profesionalitas: Dimas (K2-04)</td>
+<td><code>hasil_2a_18225121.qmd</code></td>
+<td>Ada / Terverifikasi</td>
 </tr>
 <tr class="even">
-<td>Periode/tanggal pelaksanaan</td>
-<td>[Isi tanggal aktual setiap sesi pada laporan]</td>
+<td><strong>3</strong></td>
+<td><strong>Kasus 2b (Sesi 2b)</strong></td>
+<td>Persahabatan &amp; Profesionalitas: Elsa (K2-05)</td>
+<td><code>hasil_2b_18225121.qmd</code></td>
+<td>Ada / Terverifikasi</td>
 </tr>
 <tr class="odd">
-<td>Versi bank/paket aktif</td>
-<td>[Salin dari PENUGASAN.md dalam ZIP Anda]</td>
+<td><strong>4</strong></td>
+<td><strong>Kasus 3a (Sesi 3a)</strong></td>
+<td>Menawarkan Solusi TI/AI: Ali (K3-01)</td>
+<td><code>hasil_3a_18225121.qmd</code></td>
+<td>Ada / Terverifikasi</td>
 </tr>
 <tr class="even">
-<td>Modalitas</td>
-<td>[Teks/suara; sumber transkripsi]</td>
-</tr>
-<tr class="odd">
-<td>Status pengumpulan</td>
-<td>[Belum diunggah/sudah diunggah; bukti bila tersedia]</td>
+<td><strong>5</strong></td>
+<td><strong>Kasus 3b (Sesi 3b)</strong></td>
+<td>Menawarkan Solusi TI/AI: Budi (K3-02)</td>
+<td><code>hasil_3b_18225121.qmd</code></td>
+<td>Ada / Terverifikasi</td>
 </tr>
 </tbody>
 </table>
+<hr>
 </section>
-<section id="makalah-dan-lima-laporan" class="level2">
-<h2 class="anchored" data-anchor-id="makalah-dan-lima-laporan">Makalah dan lima laporan</h2>
->>>>>>> 9c9756d68983c295f72446d607c31cc25aecd4ea
+<section id="performance-card-integrasi-modul" class="level2">
+<h2 class="anchored" data-anchor-id="performance-card-integrasi-modul">Performance Card &amp; Integrasi Modul</h2>
+<ul>
+<li><strong>Target / Person:</strong> Pengambil keputusan, rekan kerja, dan pemangku kepentingan proyek TI/AI.</li>
+<li><strong>Initial State:</strong> Mengetahui adanya kebutuhan efisiensi dan pembagian kerja, tetapi memiliki keraguan, kekhawatiran risiko, atau kendala waktu transaksi.</li>
+<li><strong>Objective:</strong> Bergerak dari <em>Attention</em> menuju <em>Interest</em>, membangun <em>shared problem statement</em>, serta mencapai kesepakatan uji coba alur kerja (<em>pilot test</em>) tanpa pemaksaan.</li>
+</ul>
+<hr>
+</section>
+<section id="evaluasi-6-dimensi-kipp" class="level2">
+<h2 class="anchored" data-anchor-id="evaluasi-6-dimensi-kipp">Evaluasi 6 Dimensi KIPP</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 30%">
@@ -429,223 +439,59 @@ ul.task-list li input[type="checkbox"] {
 </colgroup>
 <thead>
 <tr class="header">
-<<<<<<< HEAD
-<th>Dimensi</th>
+<th>Dimensi Evaluasi</th>
 <th style="text-align: right;">Skor</th>
-<th>Evidence singkat</th>
-=======
-<th>Tahap</th>
-<th>Template untuk diisi</th>
-<th>Target sesuai ZIP</th>
-<th>Status</th>
-<th>Bukti/ID atau bagian yang masih kurang</th>
->>>>>>> 9c9756d68983c295f72446d607c31cc25aecd4ea
+<th>Evidence Singkat &amp; Analisis</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<<<<<<< HEAD
-<td>Person &amp; Character</td>
-<td style="text-align: right;">3</td>
-<td>Karakter, beban kerja, dan kekhawatiran target dapat dipahami dengan baik</td>
+<td><strong>1. Tujuan &amp; Kontekstualisasi</strong></td>
+<td style="text-align: right;">3 / 4</td>
+<td>Tujuan komunikasi didefinisikan secara konkret dengan indikator keberhasilan, batasan kendala, serta kriteria terukur tanpa janji berlebihan.</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; State</td>
-<td style="text-align: right;">3</td>
-<td>Mampu membedakan kondisi awal target dan mengarahkan ke tahap Interest</td>
+<td><strong>2. Persepsi &amp; Validasi Status</strong></td>
+<td style="text-align: right;">3 / 4</td>
+<td>Mampu memetakan kondisi TAIDA awal sasaran, memvalidasi beban emosional/operasional, serta melakukan koreksi asumsi melalui pertanyaan reflektif.</td>
 </tr>
 <tr class="odd">
-<td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">3</td>
-<td>Penggunaan bahasa, materi pendukung, dan asistensi AI proporsional</td>
+<td><strong>3. Repertoar &amp; Adaptasi Bahasa</strong></td>
+<td style="text-align: right;">4 / 4</td>
+<td>Berhasil melakukan <em>detoks fitur</em>, menerjemahkan kemampuan teknis menjadi <em>nilai relasional</em>, dan menggunakan ragam bahasa yang tepat bagi 5 audiens berbeda.</td>
 </tr>
 <tr class="even">
-<td>Response &amp; Adaptation</td>
-<td style="text-align: right;">4</td>
-<td>Mampu beradaptasi dan memperbarui alur kerja saat target memberikan tanggapan</td>
+<td><strong>4. Eksekusi Jelas &amp; Konsisten</strong></td>
+<td style="text-align: right;">4 / 4</td>
+<td>Menggunakan formula <em>Observasi–Dampak–Periksa</em> (pitch <span class="math inline">\(\le 45\)</span> kata) dan menyusun dialog bebas jargon teknis dengan penghormatan otonomi sasaran.</td>
 </tr>
 <tr class="odd">
-<td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">3</td>
-<td>Penanggung jawab dan bentuk tidak lanjut disepakati bersama secara jelas</td>
+<td><strong>5. Evaluasi &amp; Respon Adaptif</strong></td>
+<td style="text-align: right;">4 / 4</td>
+<td>Menyimak isyarat verbal/nonverbal, menerima tanggapan penolakan/keraguan sebagai informasi berharga, dan menyesuaikan tawaran uji coba secara realistis.</td>
+</tr>
+<tr class="even">
+<td><strong>6. Refleksi &amp; Lesson Learned</strong></td>
+<td style="text-align: right;">3 / 4</td>
+<td>Mengidentifikasi perubahan PASK (Persepsi, Sikap, Keterampilan, Pengetahuan), membatasi klaim berlebihan, dan menetapkan langkah tindak lanjut yang jujur.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total: 16/20 — Kompeten.</strong></p>
-=======
-<td>Pra-UTS</td>
-<td><a href="../portfolio/UTS/paper.html">paper.qmd</a></td>
-<td>Kajian empat pertanyaan MBTI/PASK</td>
-<td>Belum dimulai</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td><a href="../portfolio/UTS/hasil_1.html">hasil_1.qmd</a></td>
-<td>Diri; [nama/ID pembanding]</td>
-<td>Belum dimulai</td>
-<td>[Isi]</td>
-</tr>
-<tr class="odd">
-<td>2a</td>
-<td><a href="../portfolio/UTS/hasil_2a.html">hasil_2a.qmd</a></td>
-<td>[Nama/ID target pertama kasus 2]</td>
-<td>Belum dimulai</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>2b</td>
-<td><a href="../portfolio/UTS/hasil_2b.html">hasil_2b.qmd</a></td>
-<td>[Nama/ID target kedua; berbeda dari 2a]</td>
-<td>Belum dimulai</td>
-<td>[Isi]</td>
-</tr>
-<tr class="odd">
-<td>3a</td>
-<td><a href="../portfolio/UTS/hasil_3a.html">hasil_3a.qmd</a></td>
-<td>[Nama/ID target pertama kasus 3]</td>
-<td>Belum dimulai</td>
-<td>[Isi]</td>
-</tr>
-<tr class="even">
-<td>3b</td>
-<td><a href="../portfolio/UTS/hasil_3b.html">hasil_3b.qmd</a></td>
-<td>[Nama/ID target kedua; berbeda dari 3a]</td>
-<td>Belum dimulai</td>
-<td>[Isi]</td>
-</tr>
-</tbody>
-</table>
+<p><strong>Total Skor Evaluasi Mandiri: 21 / 24 (Status: Kompeten / Unggul).</strong></p>
+<hr>
 </section>
-<section id="bobot-dan-nilai-akhir-uts" class="level2">
-<h2 class="anchored" data-anchor-id="bobot-dan-nilai-akhir-uts">Bobot dan nilai akhir UTS</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Komponen</th>
-<th style="text-align: right;">Bobot</th>
-<th>Nilai komponen</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Makalah pra-UTS (<code>paper.qmd</code>)</td>
-<td style="text-align: right;">10%</td>
-<td>Nilai dosen pada skala 0–100</td>
-</tr>
-<tr class="even">
-<td>Sesi 1</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="odd">
-<td>Sesi 2a</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="even">
-<td>Sesi 2b</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="odd">
-<td>Sesi 3a</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="even">
-<td>Sesi 3b</td>
-<td style="text-align: right;">18%</td>
-<td>Jumlah enam skor / 24 × 100</td>
-</tr>
-<tr class="odd">
-<td><strong>Total</strong></td>
-<td style="text-align: right;"><strong>100%</strong></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Nilai akhir UTS = 0,10 × M + 0,18 × (S1 + S2a + S2b + S3a + S3b)</strong>, dengan seluruh nilai komponen pada skala 0–100. Bobot ini berlaku di dalam nilai UTS.</p>
-<p>Nilai sesi hanya dihitung jika keenam skor sah tersedia. BT berarti belum dapat ditetapkan, bukan nol; komponen yang belum tersedia atau belum dapat dinilai tidak dianggap nol dan bobotnya tidak dinormalisasi ulang. Nilai akhir ditulis <strong>Belum dihitung</strong> sampai nilai makalah dan kelima sesi tersedia.</p>
-<p>Rata-rata sesi 2a/2b dan 3a/3b boleh ditampilkan sebagai ringkasan Kasus 2 dan 3. Kontribusi Kasus 1 adalah 18%, Kasus 2 adalah 36%, dan Kasus 3 adalah 36%; ringkasan kasus tidak dihitung lagi sebagai komponen tambahan.</p>
-<p>Rubrik makalah belum ditetapkan dalam dokumen ini. Gunakan nilai makalah dari dosen atau rubrik makalah resmi bila tersedia; jangan menerapkan rubrik performance enam dimensi pada makalah atau mengarang skor. Semua usulan skor AI memerlukan moderasi dosen.</p>
-</section>
-<section id="rekap-nilai-komponen" class="level2">
-<h2 class="anchored" data-anchor-id="rekap-nilai-komponen">Rekap nilai komponen</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 21%">
-<col style="width: 15%">
-<col style="width: 15%">
-<col style="width: 15%">
-<col style="width: 15%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Komponen</th>
-<th style="text-align: right;">Bobot</th>
-<th>Self-assessment /100</th>
-<th>Usulan AI /100</th>
-<th>Nilai resmi dosen /100</th>
-<th>Status bukti</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Makalah</td>
-<td style="text-align: right;">10%</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>Belum dinilai</td>
-</tr>
-<tr class="even">
-<td>Sesi 1</td>
-<td style="text-align: right;">18%</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>Belum dinilai</td>
-</tr>
-<tr class="odd">
-<td>Sesi 2a</td>
-<td style="text-align: right;">18%</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>Belum dinilai</td>
-</tr>
-<tr class="even">
-<td>Sesi 2b</td>
-<td style="text-align: right;">18%</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>Belum dinilai</td>
-</tr>
-<tr class="odd">
-<td>Sesi 3a</td>
-<td style="text-align: right;">18%</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>Belum dinilai</td>
-</tr>
-<tr class="even">
-<td>Sesi 3b</td>
-<td style="text-align: right;">18%</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>Belum dinilai</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Nilai akhir UTS resmi:</strong> Belum dihitung. Isi <code>assessor_score</code> dengan nilai akhir /100 hanya setelah seluruh komponen resmi tersedia; jangan memakai total /20.</p>
->>>>>>> 9c9756d68983c295f72446d607c31cc25aecd4ea
+<section id="refleksi-lintas-sesi-tindak-lanjut" class="level2">
+<h2 class="anchored" data-anchor-id="refleksi-lintas-sesi-tindak-lanjut">Refleksi Lintas Sesi &amp; Tindak Lanjut</h2>
+<p>Proses pengerjaan seluruh rangkaian UTS ini memberikan pembelajaran utama bahwa keahlian teknis Sistem dan Teknologi Informasi tidak akan memberikan dampak nyata tanpa kemampuan mendengarkan dan menyampaikan nilai secara empati. Menahan <em>ego teknis</em> untuk tidak melakukan <em>feature dumping</em> adalah kunci utama dalam membangun kepercayaan profesional (<em>shared problem statement</em>).</p>
+<section id="langkah-selanjutnya" class="level3">
+<h3 class="anchored" data-anchor-id="langkah-selanjutnya">Langkah Selanjutnya:</h3>
+<ol type="1">
+<li>Memastikan seluruh file laporan di folder <code>portfolio/UTS/</code> terhubung secara lengkap.</li>
+<li>Mengunggah dan mempublikasikan pembaruan portofolio ke GitHub Pages.</li>
+</ol>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Kembali ke atas</a></main> <!-- /main -->
