@@ -29,13 +29,12 @@ Penugasan UTS KIPP mengevaluasi integrasi kemampuan komunikasi interpersonal mel
 
 | No | Komponen UTS | Judul / Sasaran | Berkas Laporan (`portfolio/UTS/`) | Status Evidence |
 |---|---|---|---|---|
-| **0** | **Makalah Pra-UTS** | Kajian Konseptual MBTI & Pendidikan PASK | `paper.qmd` | Ada / Terverifikasi |
-| **1** | **Kasus 1 (Sesi 1)** | Memimpin Diri dan Terus Belajar (Self-Leadership) | `hasil_1_18225121.qmd` | Ada / Terverifikasi |
-| **2** | **Kasus 2a (Sesi 2a)** | Persahabatan & Profesionalitas: Dimas (K2-04) | `hasil_2a_18225121.qmd` | Ada / Terverifikasi |
-| **3** | **Kasus 2b (Sesi 2b)** | Persahabatan & Profesionalitas: Elsa (K2-05) | `hasil_2b_18225121.qmd` | Ada / Terverifikasi |
-| **4** | **Kasus 3a (Sesi 3a)** | Menawarkan Solusi TI/AI: Ali (K3-01) | `hasil_3a_18225121.qmd` | Ada / Terverifikasi |
-| **5** | **Kasus 3b (Sesi 3b)** | Menawarkan Solusi TI/AI: Budi (K3-02) | `hasil_3b_18225121.qmd` | Ada / Terverifikasi |
-
+| **0** | **Makalah Pra-UTS** | Kajian Konseptual MBTI & Pendidikan PASK | [paper.qmd](UTS/paper.qmd) | Ada / Terverifikasi |
+| **1** | **Kasus 1 (Sesi 1)** | Memimpin Diri dan Terus Belajar (Self-Leadership) | [hasil_1_18225121.qmd](UTS/hasil_1_18225121.qmd) | Ada / Terverifikasi |
+| **2** | **Kasus 2a (Sesi 2a)** | Persahabatan & Profesionalitas: Dimas (K2-04) | [hasil_2a_18225121.qmd](UTS/hasil_2a_18225121.qmd) | Ada / Terverifikasi |
+| **3** | **Kasus 2b (Sesi 2b)** | Persahabatan & Profesionalitas: Elsa (K2-05) | [hasil_2b_18225121.qmd](UTS/hasil_2b_18225121.qmd) | Ada / Terverifikasi |
+| **4** | **Kasus 3a (Sesi 3a)** | Menawarkan Solusi TI/AI: Ali (K3-01) | [hasil_3a_18225121.qmd](UTS/hasil_3a_18225121.qmd) | Ada / Terverifikasi |
+| **5** | **Kasus 3b (Sesi 3b)** | Menawarkan Solusi TI/AI: Budi (K3-02) | [hasil_3b_18225121.qmd](UTS/hasil_3b_18225121.qmd) | Ada / Terverifikasi |
 ---
 
 ## Performance Card & Integrasi Modul
