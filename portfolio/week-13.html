@@ -8,7 +8,7 @@
 
 <meta name="description" content="Public artifact, evidence, context, response, dan reputation.">
 
-<title>Public Contribution Challenge – Portfolio KIPP-2</title>
+<title>Lembar Kerja Bab 13 – Portfolio KIPP-2</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -152,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolio/week-13.html">Public Contribution Challenge</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolio/week-13.html">Lembar Kerja Bab 13</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -268,37 +297,37 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-09.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Desire-State Communication</span></a>
+ <span class="menu-text">Lembar Kerja Bab 09</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Action &amp; Agreement Challenge</span></a>
+ <span class="menu-text">Lembar Kerja Bab 10</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Multi-Person Negotiation Challenge</span></a>
+ <span class="menu-text">Lembar Kerja Bab 11</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-12.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Community Communication Challenge</span></a>
+ <span class="menu-text">Lembar Kerja Bab 12</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-13.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Public Contribution Challenge</span></a>
+ <span class="menu-text">Lembar Kerja Bab 13</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-14.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">AI-Mediated Communication Design</span></a>
+ <span class="menu-text">Lembar Kerja Bab 14</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -328,6 +357,35 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
   </ul></li>
+  <li><a href="#lembar-kerja-praktis-satu-gagasan-empat-bahasa-publik" id="toc-lembar-kerja-praktis-satu-gagasan-empat-bahasa-publik" class="nav-link" data-scroll-target="#lembar-kerja-praktis-satu-gagasan-empat-bahasa-publik">Lembar Kerja Praktis: Satu Gagasan, Empat Bahasa Publik</a>
+  <ul class="collapse">
+  <li><a href="#bab-13-berkomunikasi-dengan-dunia-komunikasi-publik-yang-bertanggung-jawab" id="toc-bab-13-berkomunikasi-dengan-dunia-komunikasi-publik-yang-bertanggung-jawab" class="nav-link" data-scroll-target="#bab-13-berkomunikasi-dengan-dunia-komunikasi-publik-yang-bertanggung-jawab">Bab 13: Berkomunikasi dengan Dunia (Komunikasi Publik yang Bertanggung Jawab)</a>
+  <ul class="collapse">
+  <li><a href="#nama-kelompok-kelompok-4-kipp-2" id="toc-nama-kelompok-kelompok-4-kipp-2" class="nav-link" data-scroll-target="#nama-kelompok-kelompok-4-kipp-2"><strong>Nama Kelompok:</strong> Kelompok 4 / KIPP-2</a></li>
+  <li><a href="#anggota-kelompok-farrel-garuda-haryono-18225121-budi-siti-joko-rina" id="toc-anggota-kelompok-farrel-garuda-haryono-18225121-budi-siti-joko-rina" class="nav-link" data-scroll-target="#anggota-kelompok-farrel-garuda-haryono-18225121-budi-siti-joko-rina"><strong>Anggota Kelompok:</strong> Farrel Garuda Haryono (18225121), Budi, Siti, Joko, Rina</a></li>
+  <li><a href="#tanggal-sesi-kelas-oktober-2026" id="toc-tanggal-sesi-kelas-oktober-2026" class="nav-link" data-scroll-target="#tanggal-sesi-kelas-oktober-2026"><strong>Tanggal &amp; Sesi Kelas:</strong> Oktober 2026</a></li>
+  </ul></li>
+  <li><a href="#a.-tujuan-pembelajaran" id="toc-a.-tujuan-pembelajaran" class="nav-link" data-scroll-target="#a.-tujuan-pembelajaran"><strong>A. TUJUAN PEMBELAJARAN</strong></a></li>
+  <li><a href="#fase-1-pemetaan-gagasan-inti-core-meaning-mapping" id="toc-fase-1-pemetaan-gagasan-inti-core-meaning-mapping" class="nav-link" data-scroll-target="#fase-1-pemetaan-gagasan-inti-core-meaning-mapping"><strong>FASE 1: PEMETAAN GAGASAN INTI (CORE MEANING MAPPING)</strong></a>
+  <ul class="collapse">
+  <li><a href="#gagasan-teknis-konsep-ilmiah-pilihan-anda" id="toc-gagasan-teknis-konsep-ilmiah-pilihan-anda" class="nav-link" data-scroll-target="#gagasan-teknis-konsep-ilmiah-pilihan-anda"><strong>1. Gagasan Teknis / Konsep Ilmiah Pilihan Anda:</strong></a></li>
+  <li><a href="#penjelasan-asli-bahasa-menara-gading-jargon-akademis" id="toc-penjelasan-asli-bahasa-menara-gading-jargon-akademis" class="nav-link" data-scroll-target="#penjelasan-asli-bahasa-menara-gading-jargon-akademis"><strong>2. Penjelasan Asli (Bahasa Menara Gading / Jargon Akademis):</strong></a></li>
+  <li><a href="#makna-inti-core-meaning-yang-tidak-boleh-berubah" id="toc-makna-inti-core-meaning-yang-tidak-boleh-berubah" class="nav-link" data-scroll-target="#makna-inti-core-meaning-yang-tidak-boleh-berubah"><strong>3. Makna Inti (Core Meaning) yang Tidak Boleh Berubah:</strong></a></li>
+  </ul></li>
+  <li><a href="#fase-2-detoks-jargon-3-langkah-jelas" id="toc-fase-2-detoks-jargon-3-langkah-jelas" class="nav-link" data-scroll-target="#fase-2-detoks-jargon-3-langkah-jelas"><strong>FASE 2: DETOKS JARGON (3 LANGKAH JELAS)</strong></a></li>
+  <li><a href="#fase-3-merakit-empat-bahasa-publik" id="toc-fase-3-merakit-empat-bahasa-publik" class="nav-link" data-scroll-target="#fase-3-merakit-empat-bahasa-publik"><strong>FASE 3: MERAKIT EMPAT BAHASA PUBLIK</strong></a>
+  <ul class="collapse">
+  <li><a href="#format-a-bahasa-lisan-kilat-pitch-30-detik" id="toc-format-a-bahasa-lisan-kilat-pitch-30-detik" class="nav-link" data-scroll-target="#format-a-bahasa-lisan-kilat-pitch-30-detik"><strong>FORMAT A: BAHASA LISAN KILAT (PITCH 30 DETIK)</strong></a></li>
+  <li><a href="#format-b-bahasa-lisan-mekanis-penjelasan-3-menit" id="toc-format-b-bahasa-lisan-mekanis-penjelasan-3-menit" class="nav-link" data-scroll-target="#format-b-bahasa-lisan-mekanis-penjelasan-3-menit"><strong>FORMAT B: BAHASA LISAN MEKANIS (PENJELASAN 3 MENIT)</strong></a></li>
+  <li><a href="#format-c-bahasa-tulisan-profesional-ringkasan-200-kata" id="toc-format-c-bahasa-tulisan-profesional-ringkasan-200-kata" class="nav-link" data-scroll-target="#format-c-bahasa-tulisan-profesional-ringkasan-200-kata"><strong>FORMAT C: BAHASA TULISAN PROFESIONAL (RINGKASAN 200 KATA)</strong></a></li>
+  <li><a href="#format-d-bahasa-visual-struktur-diagram" id="toc-format-d-bahasa-visual-struktur-diagram" class="nav-link" data-scroll-target="#format-d-bahasa-visual-struktur-diagram"><strong>FORMAT D: BAHASA VISUAL / STRUKTUR DIAGRAM</strong></a></li>
+  </ul></li>
+  <li><a href="#fase-4-evaluasi-jalur-ganda-evaluation-roadmap" id="toc-fase-4-evaluasi-jalur-ganda-evaluation-roadmap" class="nav-link" data-scroll-target="#fase-4-evaluasi-jalur-ganda-evaluation-roadmap"><strong>FASE 4: EVALUASI JALUR GANDA (EVALUATION ROADMAP)</strong></a>
+  <ul class="collapse">
+  <li><a href="#lembar-penilaian-rekan-sejawat-skala-1---3" id="toc-lembar-penilaian-rekan-sejawat-skala-1---3" class="nav-link" data-scroll-target="#lembar-penilaian-rekan-sejawat-skala-1---3"><strong>Lembar Penilaian Rekan Sejawat (Skala 1 - 3)</strong></a></li>
+  <li><a href="#rekomendasi-perbaikan-untuk-putaran-kedua" id="toc-rekomendasi-perbaikan-untuk-putaran-kedua" class="nav-link" data-scroll-target="#rekomendasi-perbaikan-untuk-putaran-kedua"><strong>Rekomendasi Perbaikan untuk Putaran Kedua:</strong></a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -336,7 +394,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Public Contribution Challenge</h1>
+<h1 class="title">Lembar Kerja Bab 13</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Public</div>
     <div class="quarto-category">Contribution</div>
@@ -499,8 +557,238 @@ ul.task-list li input[type="checkbox"] {
 <strong>Prioritas perbaikan:</strong> —<br>
 <strong>Keputusan:</strong> Belum dinilai / Perlu revisi / Tercapai</p>
 </section>
+</section>
+<section id="lembar-kerja-praktis-satu-gagasan-empat-bahasa-publik" class="level1">
+<h1>Lembar Kerja Praktis: Satu Gagasan, Empat Bahasa Publik</h1>
+<section id="bab-13-berkomunikasi-dengan-dunia-komunikasi-publik-yang-bertanggung-jawab" class="level2">
+<h2 class="anchored" data-anchor-id="bab-13-berkomunikasi-dengan-dunia-komunikasi-publik-yang-bertanggung-jawab">Bab 13: Berkomunikasi dengan Dunia (Komunikasi Publik yang Bertanggung Jawab)</h2>
+<section id="nama-kelompok-kelompok-4-kipp-2" class="level3">
+<h3 class="anchored" data-anchor-id="nama-kelompok-kelompok-4-kipp-2"><strong>Nama Kelompok:</strong> Kelompok 4 / KIPP-2</h3>
+</section>
+<section id="anggota-kelompok-farrel-garuda-haryono-18225121-budi-siti-joko-rina" class="level3">
+<h3 class="anchored" data-anchor-id="anggota-kelompok-farrel-garuda-haryono-18225121-budi-siti-joko-rina"><strong>Anggota Kelompok:</strong> Farrel Garuda Haryono (18225121), Budi, Siti, Joko, Rina</h3>
+</section>
+<section id="tanggal-sesi-kelas-oktober-2026" class="level3">
+<h3 class="anchored" data-anchor-id="tanggal-sesi-kelas-oktober-2026"><strong>Tanggal &amp; Sesi Kelas:</strong> Oktober 2026</h3>
+<hr>
+</section>
+</section>
+<section id="a.-tujuan-pembelajaran" class="level2">
+<h2 class="anchored" data-anchor-id="a.-tujuan-pembelajaran"><strong>A. TUJUAN PEMBELAJARAN</strong></h2>
+<p>Lembar kerja ini dirancang untuk melatih kompetensi <strong>Komunikasi Publik Berlapis</strong> (<em>Layered Public Communication</em>). Anda ditantang untuk mengambil satu konsep ilmiah, gagasan teknis, atau program kelompok Anda yang rumit, lalu menyederhanakannya ke dalam <strong>empat format bahasa publik yang berbeda</strong> tanpa mendistorsi atau mengurangi kebenaran esensi ilmiahnya.</p>
+<p>Ingat aturan emas komunikasi publik di era AI: <strong>AI dapat membantu kita merangkum kata, tetapi manusia bertanggung jawab penuh untuk merawat kebenaran makna dan menjaga kepercayaan publik.</strong></p>
+<hr>
+</section>
+<section id="fase-1-pemetaan-gagasan-inti-core-meaning-mapping" class="level2">
+<h2 class="anchored" data-anchor-id="fase-1-pemetaan-gagasan-inti-core-meaning-mapping"><strong>FASE 1: PEMETAAN GAGASAN INTI (CORE MEANING MAPPING)</strong></h2>
+<p>Sebelum menyebarkan pesan ke publik luas, Anda harus mengidentifikasi “harta karun makna” yang tidak boleh hilang atau rusak saat diterjemahkan.</p>
+<section id="gagasan-teknis-konsep-ilmiah-pilihan-anda" class="level3">
+<h3 class="anchored" data-anchor-id="gagasan-teknis-konsep-ilmiah-pilihan-anda"><strong>1. Gagasan Teknis / Konsep Ilmiah Pilihan Anda:</strong></h3>
+<blockquote class="blockquote">
+<p>Arsitektur sistem otomasi pendataan dan migrasi basis data relasional berbasis skrip aturan tervalidasi (<em>rule-based data processing</em>) untuk efisiensi operasional harian.</p>
+</blockquote>
+</section>
+<section id="penjelasan-asli-bahasa-menara-gading-jargon-akademis" class="level3">
+<h3 class="anchored" data-anchor-id="penjelasan-asli-bahasa-menara-gading-jargon-akademis"><strong>2. Penjelasan Asli (Bahasa Menara Gading / Jargon Akademis):</strong></h3>
+<blockquote class="blockquote">
+<p>Implementasi sistem terdistribusi menggunakan arsitektur relasional database dengan pemrosesan asinkron dan validasi skema berbasis entitas relasional guna meminimalkan latensi <em>query</em>, mencegah anomali anomali anomali integritas referensial, serta memastikan konsistensi transaksional ACID (<em>Atomicity, Consistency, Isolation, Durability</em>) secara <em>real-time</em>.</p>
+</blockquote>
+</section>
+<section id="makna-inti-core-meaning-yang-tidak-boleh-berubah" class="level3">
+<h3 class="anchored" data-anchor-id="makna-inti-core-meaning-yang-tidak-boleh-berubah"><strong>3. Makna Inti (Core Meaning) yang Tidak Boleh Berubah:</strong></h3>
+<blockquote class="blockquote">
+<p>Sistem ini merapikan dan mempercepat proses pencatatan data secara otomatis sehingga staf tidak perlu lagi merekap data secara manual yang memakan waktu berjam-jam dan rentan salah hitung.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="fase-2-detoks-jargon-3-langkah-jelas" class="level2">
+<h2 class="anchored" data-anchor-id="fase-2-detoks-jargon-3-langkah-jelas"><strong>FASE 2: DETOKS JARGON (3 LANGKAH JELAS)</strong></h2>
+<p>Mari bersihkan penjelasan Anda dari kata-kata yang memisahkan Anda dengan pendengar menggunakan formula <strong>Tandai, Terjemahkan, dan Uji</strong>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 41%">
+<col style="width: 54%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>No</th>
+<th>Jargon Teknis / Akademis yang Ditandai</th>
+<th>Terjemahan Bahasa Publik (Analogi / Istilah Umum)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><em>Konsistensi Transaksional ACID</em></td>
+<td><em>Sistem pencatatan ganda yang memastikan data tidak pernah keliru atau terpotong setengah jalan</em></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><em>Pemrosesan Asinkron</em></td>
+<td><em>Cara kerja sistem di balik layar yang memproses tugas tanpa membuat layar komputer macet/loading lama</em></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><em>Integritas Referensial</em></td>
+<td><em>Aturan pengunci otomatis agar tidak ada data ganda atau salah kamar</em></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><em>Latensi Query</em></td>
+<td><em>Waktu tunggu jeda saat komputer mencari data</em></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="fase-3-merakit-empat-bahasa-publik" class="level2">
+<h2 class="anchored" data-anchor-id="fase-3-merakit-empat-bahasa-publik"><strong>FASE 3: MERAKIT EMPAT BAHASA PUBLIK</strong></h2>
+<p>Sekarang, kemas gagasan inti Anda ke dalam empat lapis format komunikasi yang adaptif terhadap situasi, medium, dan profil audiens yang berbeda.</p>
+<hr>
+<section id="format-a-bahasa-lisan-kilat-pitch-30-detik" class="level3">
+<h3 class="anchored" data-anchor-id="format-a-bahasa-lisan-kilat-pitch-30-detik"><strong>FORMAT A: BAHASA LISAN KILAT (PITCH 30 DETIK)</strong></h3>
+<ul>
+<li><strong>Target Situasi:</strong> Pertemuan tidak sengaja di lorong, pembuka video pendek (TikTok/Reels), atau pembuka presentasi umum.</li>
+<li><strong>Aturan:</strong> Maksimal 45 kata. Fokus pada daya tarik emosional, relevansi langsung, dan ajakan tanpa taktik bombastis (<em>no clickbait</em>).</li>
+<li><strong>Formula:</strong> <strong>Observasi Realitas <span class="math inline">\(\rightarrow\)</span> Kemungkinan Hasil <span class="math inline">\(\rightarrow\)</span> Periksa Ketertarikan</strong>.</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Naskah Pitch 30 Detik Anda (Maksimal 45 kata):</strong> ” Staf operasional sering menghabiskan waktu sepuluh jam seminggu hanya untuk merekap data manual yang melelahkan. Kami merancang sistem otomasi ringan yang merapikan data secara otomatis seketika. Apakah efisiensi waktu ini penting untuk meringankan beban kerja harian tim Anda? ”</p>
+<p><em>Jumlah Kata:</em> 40 kata.</p>
+</blockquote>
+<hr>
+</section>
+<section id="format-b-bahasa-lisan-mekanis-penjelasan-3-menit" class="level3">
+<h3 class="anchored" data-anchor-id="format-b-bahasa-lisan-mekanis-penjelasan-3-menit"><strong>FORMAT B: BAHASA LISAN MEKANIS (PENJELASAN 3 MENIT)</strong></h3>
+<ul>
+<li><strong>Target Situasi:</strong> Penjelasan di depan forum warga, sesi tanya jawab setelah presentasi, atau naskah video penjelasan (<em>explainer video</em>).</li>
+<li><strong>Aturan:</strong> Menjelaskan mekanisme “bagaimana solusi bekerja” secara masuk akal menggunakan analogi sehari-hari tanpa membuang tabel atau diagram penting.</li>
+<li><strong>Formula:</strong> <strong>Analogi Sederhana <span class="math inline">\(\rightarrow\)</span> Mekanisme Kerja <span class="math inline">\(\rightarrow\)</span> Batasan Jujur (Risiko/Keterbatasan)</strong>.</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Naskah Penjelasan 3 Menit Anda:</strong> “Bayangkan proses pencatatan data manual seperti seseorang yang harus menyalin ribuan nama dari buku tamu kertas ke buku besar secara teliti. Jika lelah, kesalahan hitung pasti terjadi. Sistem yang kami bangun bertindak seperti asisten digital pintar yang langsung menyalin dan memeriksa setiap baris data begitu Anda mengetiknya.</p>
+<p>Cara kerjanya sederhana: formulir digital di lapangan terhubung langsung ke satu lembar kerja pusat. Ketika data dimasukkan, sistem secara otomatis mencocokkan formatnya agar tidak ada kolom yang kosong atau salah tempat. Hasilnya, laporan akhir yang biasanya butuh waktu berjam-jam kini tersaji instan dalam hitungan detik.</p>
+<p>Namun, kami perlu sampaikan secara jujur batasannya: sistem ini sangat bergantung pada kestabilan jaringan internet lokal. Jika koneksi terputus total, data akan disimpan sementara di perangkat (<em>offline cache</em>) dan baru akan tersinkronisasi setelah internet kembali stabil.”</p>
+</blockquote>
+<hr>
+</section>
+<section id="format-c-bahasa-tulisan-profesional-ringkasan-200-kata" class="level3">
+<h3 class="anchored" data-anchor-id="format-c-bahasa-tulisan-profesional-ringkasan-200-kata"><strong>FORMAT C: BAHASA TULISAN PROFESIONAL (RINGKASAN 200 KATA)</strong></h3>
+<ul>
+<li><strong>Target Situasi:</strong> Siaran pers (<em>press release</em>), draf surat usulan kepada pengambil kebijakan, atau draf artikel populer di media massa.</li>
+<li><strong>Aturan:</strong> Terstruktur, objektif, menggunakan kalimat aktif, menghindari kalimat pasif berbelit-belit, dan menyertakan bukti pendukung secara transparan.</li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Draf Ringkasan 200 Kata Anda:</strong> Efisiensi operasional instansi sering kali terkendala oleh proses rekapitulasi data manual yang memakan waktu dan rentan terhadap kesalahan manusia (<em>human error</em>). Untuk menjawab tantangan tersebut, kelompok kami mengembangkan modul otomasi pendataan berbasis basis data relasional yang dirancang khusus menyederhanakan alur kerja administratif harian.</p>
+<p>Berdasarkan hasil uji coba skala kecil (<em>pilot test</em>) yang melibatkan staf operasional, sistem ini terbukti mampu memangkas waktu rekapitulasi laporan mingguan dari sepuluh jam menjadi kurang dari lima belas menit. Mekanisme kerja sistem memvalidasi setiap masukan data secara otomatis sebelum disimpan ke server pusat, memastikan akurasi informasi tanpa mengorbankan keamanan data.</p>
+<p>Meskipun demikian, kami menyadari bahwa adopsi teknologi baru memerlukan proses penyesuaian. Oleh karena itu, solusi ini dirancang dengan antarmuka yang sangat intuitif serta dilengkapi fitur penyimpanan lokal sementara guna mengantisipasi kendala koneksi internet di lapangan. Kami berkomitmen untuk mendampingi masa transisi ini secara bertahap demi memastikan keberlanjutan kerja sama yang adil dan transparan bagi seluruh pihak terkait.</p>
+</blockquote>
+<hr>
+</section>
+<section id="format-d-bahasa-visual-struktur-diagram" class="level3">
+<h3 class="anchored" data-anchor-id="format-d-bahasa-visual-struktur-diagram"><strong>FORMAT D: BAHASA VISUAL / STRUKTUR DIAGRAM</strong></h3>
+<ul>
+<li><strong>Target Situasi:</strong> Poster infografis, slide presentasi utama, atau konten visual media sosial.</li>
+<li><strong>Aturan:</strong> Jelaskan bagaimana Anda akan memvisualisasikan gagasan ini. Gambarkan sketsa kasarnya atau tuliskan rancangan elemen visual dan teks alternatifnya.</li>
+</ul>
+<pre><code>+-----------------------------------------------------------------------------------+
+| RANCANGAN SKETSA VISUAL / STRUKTUR LAYOUT                                         |
+| (Gambarkan kotak-kotak informasi, panah alur proses, dan judul utama)             |
+|                                                                                   |
+|                                                                                   |
+|                                                                                   |
+|                                                                                   |
+|                                                                                   |
+|                                                                                   |
+|                                                                                   |
+|                                                                                   |
++-----------------------------------------------------------------------------------+</code></pre>
+<ul>
+<li><strong>Judul Visual (Tanpa Clickbait):</strong> Alur Transformasi Pendataan Manual Menuju Sistem Otomasi Terpadu</li>
+<li><strong>Deskripsi Teks Alternatif (Alt Text) untuk Aksesibilitas:</strong><br>
+&gt; Infografis tiga langkah alur kerja yang menunjukkan transisi dari pengisian formulir manual yang lambat, pemrosesan validasi otomatis oleh sistem, hingga hasil laporan instan yang menghemat waktu kerja staf.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="fase-4-evaluasi-jalur-ganda-evaluation-roadmap" class="level2">
+<h2 class="anchored" data-anchor-id="fase-4-evaluasi-jalur-ganda-evaluation-roadmap"><strong>FASE 4: EVALUASI JALUR GANDA (EVALUATION ROADMAP)</strong></h2>
+<p>Lakukan uji coba draf Anda kepada rekan kelompok lain (yang berperan sebagai “Publik Umum” yang tidak tahu detail teknis proyek Anda). Mintalah mereka memberikan penilaian jujur berdasarkan bukti perilaku yang mereka rasakan.</p>
+<section id="lembar-penilaian-rekan-sejawat-skala-1---3" class="level3">
+<h3 class="anchored" data-anchor-id="lembar-penilaian-rekan-sejawat-skala-1---3"><strong>Lembar Penilaian Rekan Sejawat (Skala 1 - 3)</strong></h3>
+<ul>
+<li><strong>Skor 1:</strong> Kurang/Membingungkan (Masih banyak jargon, distorsi makna, atau terasa manipulatif/clickbait).</li>
+<li><strong>Skor 2:</strong> Cukup/Cukup Jelas (Esensi tersampaikan, namun analogi masih agak kaku atau ada beberapa detail yang menggantung).</li>
+<li><strong>Skor 3:</strong> Sangat Baik/Jernih (Sangat mudah dipahami, bebas jargon, jujur menyertakan keterbatasan, dan menjaga martabat relasi).</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 13%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensi Penilaian Publik</th>
+<th>Skor (1-3)</th>
+<th>Bukti Perilaku &amp; Catatan Masukan dari Pengamat</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1. Kejernihan Esensi</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>(Apakah makna inti tersampaikan dengan benar tanpa distorsi?)</em></td>
+<td>3</td>
+<td>Makna efisiensi waktu dan otomatisasi data tersampaikan secara gamblang tanpa istilah basis data yang rumit.</td>
+</tr>
+<tr class="odd">
+<td><strong>2. Kemerdekaan Audien</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>(Apakah bebas dari kesan menakut-nakuti atau memaksa?)</em></td>
+<td>3</td>
+<td>Tidak ada klaim berlebihan atau kalimat yang memaksa audiens untuk langsung menerima sistem tanpa penjelasan risiko.</td>
+</tr>
+<tr class="odd">
+<td><strong>3. Kelenturan Analogi</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>(Apakah analogi yang dipakai relevan dengan dunia publik?)</em></td>
+<td>3</td>
+<td>Analogi penyalin buku tamu manual sangat pas menggambarkan kerumitan rekap data harian secara intuitif.</td>
+</tr>
+<tr class="odd">
+<td><strong>4. Kejujuran Batas</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><em>(Apakah risiko/keterbatasan solusi disampaikan terbuka?)</em></td>
+<td>3</td>
+<td>Keterbatasan sistem terhadap koneksi internet dijelaskan secara jujur dan transparan pada draf penjelasan lisan maupun tulisan.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="rekomendasi-perbaikan-untuk-putaran-kedua" class="level3">
+<h3 class="anchored" data-anchor-id="rekomendasi-perbaikan-untuk-putaran-kedua"><strong>Rekomendasi Perbaikan untuk Putaran Kedua:</strong></h3>
+<blockquote class="blockquote">
+<p>Memperhalus transisi kalimat pada draf penjelasan lisan 3 menit agar durasi penyampaian terasa lebih natural dan tidak terburu-buru saat dibacakan di hadapan audiens umum.</p>
+</blockquote>
 
 
+</section>
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Kembali ke atas</a></main> <!-- /main -->
@@ -906,13 +1194,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../portfolio/week-12.html" class="pagination-link" aria-label="Community Communication Challenge">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Community Communication Challenge</span>
+      <a href="../portfolio/week-12.html" class="pagination-link" aria-label="Lembar Kerja Bab 12">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Lembar Kerja Bab 12</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../portfolio/week-14.html" class="pagination-link" aria-label="AI-Mediated Communication Design">
-        <span class="nav-page-text">AI-Mediated Communication Design</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../portfolio/week-14.html" class="pagination-link" aria-label="Lembar Kerja Bab 14">
+        <span class="nav-page-text">Lembar Kerja Bab 14</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

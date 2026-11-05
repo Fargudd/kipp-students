@@ -8,7 +8,7 @@
 
 <meta name="description" content="Barrier, authority, negotiation, agreement, dan action evidence.">
 
-<title>Action &amp; Agreement Challenge – Portfolio KIPP-2</title>
+<title>Lembar Kerja Bab 10 – Portfolio KIPP-2</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -152,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolio/week-10.html">Action &amp; Agreement Challenge</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolio/week-10.html">Lembar Kerja Bab 10</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alihkan bilah sisi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -268,37 +297,37 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-09.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Desire-State Communication</span></a>
+ <span class="menu-text">Lembar Kerja Bab 09</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-10.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Action &amp; Agreement Challenge</span></a>
+ <span class="menu-text">Lembar Kerja Bab 10</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Multi-Person Negotiation Challenge</span></a>
+ <span class="menu-text">Lembar Kerja Bab 11</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-12.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Community Communication Challenge</span></a>
+ <span class="menu-text">Lembar Kerja Bab 12</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-13.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Public Contribution Challenge</span></a>
+ <span class="menu-text">Lembar Kerja Bab 13</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../portfolio/week-14.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">AI-Mediated Communication Design</span></a>
+ <span class="menu-text">Lembar Kerja Bab 14</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -328,6 +357,27 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
   </ul></li>
+  <li><a href="#lembar-kerja-praktis-dokumen-kesepakatan-lingkar-komitmen" id="toc-lembar-kerja-praktis-dokumen-kesepakatan-lingkar-komitmen" class="nav-link" data-scroll-target="#lembar-kerja-praktis-dokumen-kesepakatan-lingkar-komitmen">Lembar Kerja Praktis: Dokumen Kesepakatan &amp; Lingkar Komitmen</a>
+  <ul class="collapse">
+  <li><a href="#identitas-proyek-pihak-yang-terlibat" id="toc-identitas-proyek-pihak-yang-terlibat" class="nav-link" data-scroll-target="#identitas-proyek-pihak-yang-terlibat">1. Identitas Proyek &amp; Pihak yang Terlibat</a></li>
+  <li><a href="#pengantar-konsep-menjembatani-bahasa-menjadi-kenyataan" id="toc-pengantar-konsep-menjembatani-bahasa-menjadi-kenyataan" class="nav-link" data-scroll-target="#pengantar-konsep-menjembatani-bahasa-menjadi-kenyataan">2. Pengantar Konsep: Menjembatani Bahasa Menjadi Kenyataan</a></li>
+  <li><a href="#bagian-1-pemetaan-negosiasi-berbasis-kepentingan" id="toc-bagian-1-pemetaan-negosiasi-berbasis-kepentingan" class="nav-link" data-scroll-target="#bagian-1-pemetaan-negosiasi-berbasis-kepentingan">Bagian 1: Pemetaan Negosiasi Berbasis Kepentingan</a></li>
+  <li><a href="#bagian-2-formula-kesepakatan-presisi-the-agreement-formula" id="toc-bagian-2-formula-kesepakatan-presisi-the-agreement-formula" class="nav-link" data-scroll-target="#bagian-2-formula-kesepakatan-presisi-the-agreement-formula">Bagian 2: Formula Kesepakatan Presisi (The Agreement Formula)</a>
+  <ul class="collapse">
+  <li><a href="#rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut" id="toc-rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut" class="nav-link" data-scroll-target="#rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut">Rumus: <strong>SIAPA <span class="math inline">\(\rightarrow\)</span> Melakukan APA <span class="math inline">\(\rightarrow\)</span> KAPAN <span class="math inline">\(\rightarrow\)</span> Prasyarat/Sumber Daya <span class="math inline">\(\rightarrow\)</span> DEFINISI SELESAI <span class="math inline">\(\rightarrow\)</span> Tindak Lanjut</strong></a></li>
+  <li><a href="#tabel-daftar-kesepakatan-tindakan" id="toc-tabel-daftar-kesepakatan-tindakan" class="nav-link" data-scroll-target="#tabel-daftar-kesepakatan-tindakan">Tabel Daftar Kesepakatan Tindakan</a></li>
+  </ul></li>
+  <li><a href="#bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist" id="toc-bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist" class="nav-link" data-scroll-target="#bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist">Bagian 3: Kontrol Lingkar Komitmen (<em>Commitment Loop Checklist</em>)</a>
+  <ul class="collapse">
+  <li><a href="#alur-pelacakan-janji" id="toc-alur-pelacakan-janji" class="nav-link" data-scroll-target="#alur-pelacakan-janji">Alur Pelacakan Janji</a></li>
+  </ul></li>
+  <li><a href="#bagian-4-evaluasi-jalur-ganda-dual-track-evaluation" id="toc-bagian-4-evaluasi-jalur-ganda-dual-track-evaluation" class="nav-link" data-scroll-target="#bagian-4-evaluasi-jalur-ganda-dual-track-evaluation">Bagian 4: Evaluasi Jalur Ganda (Dual-Track Evaluation)</a>
+  <ul class="collapse">
+  <li><a href="#jalur-tugas-task-outcome" id="toc-jalur-tugas-task-outcome" class="nav-link" data-scroll-target="#jalur-tugas-task-outcome">1. Jalur Tugas (<em>Task Outcome</em>)</a></li>
+  <li><a href="#jalur-relasi-relationship-outcome" id="toc-jalur-relasi-relationship-outcome" class="nav-link" data-scroll-target="#jalur-relasi-relationship-outcome">2. Jalur Relasi (<em>Relationship Outcome</em>)</a></li>
+  </ul></li>
+  <li><a href="#rubrik-penilaian-mandiri-umpan-balik-sejawat" id="toc-rubrik-penilaian-mandiri-umpan-balik-sejawat" class="nav-link" data-scroll-target="#rubrik-penilaian-mandiri-umpan-balik-sejawat">Rubrik Penilaian Mandiri &amp; Umpan Balik Sejawat</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -336,7 +386,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Action &amp; Agreement Challenge</h1>
+<h1 class="title">Lembar Kerja Bab 10</h1>
   <div class="quarto-categories">
     <div class="quarto-category">TAIDA</div>
     <div class="quarto-category">Action</div>
@@ -499,8 +549,266 @@ ul.task-list li input[type="checkbox"] {
 <strong>Prioritas perbaikan:</strong> —<br>
 <strong>Keputusan:</strong> Belum dinilai / Perlu revisi / Tercapai</p>
 </section>
+</section>
+<section id="lembar-kerja-praktis-dokumen-kesepakatan-lingkar-komitmen" class="level1">
+<h1>Lembar Kerja Praktis: Dokumen Kesepakatan &amp; Lingkar Komitmen</h1>
+<p><strong>Bab 10: TAIDA IV — Kesepakatan dan Tindakan</strong></p>
+<hr>
+<section id="identitas-proyek-pihak-yang-terlibat" class="level2">
+<h2 class="anchored" data-anchor-id="identitas-proyek-pihak-yang-terlibat">1. Identitas Proyek &amp; Pihak yang Terlibat</h2>
+<ul>
+<li><strong>Nama Proyek/Gagasan:</strong> Implementasi Modul Otomasi Sistem Pendataan Berbasis AI/Relational Database</li>
+<li><strong>Tanggal Diskusi:</strong> 16 Oktober 2026</li>
+<li><strong>Pihak-Pihak yang Menyusun Kesepakatan:</strong>
+<ol type="1">
+<li><strong>Pihak A (Nama &amp; Peran):</strong> Farrel Garuda Haryono (18225121) — Lead Software Engineer / Pengembang Sistem</li>
+<li><strong>Pihak B (Nama &amp; Peran):</strong> Budi — Manager Operasional / Stakeholder Bisnis</li>
+<li><strong>Pihak Lain/Pengamat (Jika ada):</strong> Tim Asisten Praktikum Komunikasi Interpersonal dan Publik</li>
+</ol></li>
+</ul>
+<hr>
+</section>
+<section id="pengantar-konsep-menjembatani-bahasa-menjadi-kenyataan" class="level2">
+<h2 class="anchored" data-anchor-id="pengantar-konsep-menjembatani-bahasa-menjadi-kenyataan">2. Pengantar Konsep: Menjembatani Bahasa Menjadi Kenyataan</h2>
+<p>Dalam dunia komunikasi profesional, ketertarikan (<em>Interest</em>) atau keinginan (<em>Desire</em>) yang besar terhadap suatu solusi belumlah cukup. Komunikasi baru benar-benar menghasilkan nilai nyata ketika berhasil ditutup dengan <strong>Kesepakatan</strong> (<em>Agreement</em>) yang menuntun pada <strong>Tindakan</strong> (<em>Action</em>) yang terkoordinasi secara etis.</p>
+<p>Lembar kerja ini membantu Anda dan tim melewati transisi penting tersebut melalui tiga instrumen utama: 1. <strong>Pemisahan Posisi vs.&nbsp;Kepentingan</strong>: Agar negosiasi tidak terjebak dalam ego masing-masing, melainkan berfokus pada kebutuhan batin dan peran nyata. 2. <strong>Formula Kesepakatan Presisi</strong>: Membuang bahasa kabur (seperti <em>“nanti dibantu”</em> atau <em>“secepatnya dikirim”</em>) dan menggantinya dengan komitmen operasional yang jelas tanggung jawab serta ukuran selesainya. 3. <strong>Kontrol Lingkar Komitmen</strong>: Memantau janji secara berkala melalui titik pemeriksaan (<em>checkpoint</em>) sebelum hari pengumpulan agar tanggung jawab tetap terpelihara bersama.</p>
+<hr>
+</section>
+<section id="bagian-1-pemetaan-negosiasi-berbasis-kepentingan" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-1-pemetaan-negosiasi-berbasis-kepentingan">Bagian 1: Pemetaan Negosiasi Berbasis Kepentingan</h2>
+<p>Sebelum merumuskan tindakan, sepakati dahulu apa kebutuhan mendasar masing-masing pihak. Bedakan antara <strong>Posisi</strong> (apa tuntutan kaku/solusi tunggal yang diajukan) dengan <strong>Kepentingan</strong> (mengapa hal itu penting bagi peran dan situasi mereka).</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Pihak</th>
+<th style="text-align: left;">Posisi (Tuntutan/Solusi Kaku yang Diajukan)</th>
+<th style="text-align: left;">Kepentingan (Kebutuhan Dasar, Dampak, atau Alasan Batin)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Contoh: Pemilik Kantin</strong></td>
+<td style="text-align: left;"><em>“Aplikasi pemesanan harus sudah online dan dipakai semua pelanggan hari Senin depan tanpa kecuali.”</em></td>
+<td style="text-align: left;"><em>Mencegah kerumunan antrean di depan kasir pada jam 12:00-13:00 karena keterbatasan staf kasir.</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Contoh: Tim Mahasiswa</strong></td>
+<td style="text-align: left;"><em>“Kami butuh waktu tambahan 2 minggu lagi untuk merilis fitur pembayaran nontunai secara sempurna.”</em></td>
+<td style="text-align: left;"><em>Menjaga keamanan data transaksi serta reputasi tim agar tidak meluncurkan sistem yang rentan error.</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Pihak A (Farrel)</strong></td>
+<td style="text-align: left;"><em>“Sistem migrasi data harus melalui tahapan uji coba <em>pilot test</em> skala kecil terlebih dahulu selama satu minggu.”</em></td>
+<td style="text-align: left;"><em>Memastikan arsitektur database stabil, meminimalkan </em>human error* input data, serta menjaga beban kerja staf operasional tetap terkendali.*</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Pihak B (Budi)</strong></td>
+<td style="text-align: left;"><em>“Proses rekapitulasi laporan operasional mingguan harus bisa diringkas tanpa menambah jam lembur staf.”</em></td>
+<td style="text-align: left;"><em>Mencegah kelelahan tim operasional dan mempercepat akurasi pengambilan keputusan manajerial.</em></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Poin Temu Kepentingan Utama:</strong> <em>(Tuliskan 1-2 kalimat area kepentingan yang saling mendukung sebagai dasar kolaborasi)</em> Kedua belah pihak sepakat membangun efisiensi operasional melalui digitalisasi bertahap yang aman dari risiko <em>error</em>, sehingga manajer mendapatkan data akurat tanpa membebani staf dengan lembur berlebihan.</li>
+</ul>
+<hr>
+</section>
+<section id="bagian-2-formula-kesepakatan-presisi-the-agreement-formula" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-2-formula-kesepakatan-presisi-the-agreement-formula">Bagian 2: Formula Kesepakatan Presisi (The Agreement Formula)</h2>
+<p>Gunakan rumus terstruktur ini untuk mengunci setiap rencana tindakan kelompok. <strong>Hindari kata-kata kabur</strong> (seperti: <em>membantu</em>, <em>mengoordinasikan</em>, <em>mencoba</em>, <em>segera</em>, <em>nanti</em>). Ganti dengan <strong>kata kerja operasional</strong> yang dapat diamati dan diverifikasi secara objektif.</p>
+<section id="rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut" class="level3">
+<h3 class="anchored" data-anchor-id="rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut">Rumus: <strong>SIAPA <span class="math inline">\(\rightarrow\)</span> Melakukan APA <span class="math inline">\(\rightarrow\)</span> KAPAN <span class="math inline">\(\rightarrow\)</span> Prasyarat/Sumber Daya <span class="math inline">\(\rightarrow\)</span> DEFINISI SELESAI <span class="math inline">\(\rightarrow\)</span> Tindak Lanjut</strong></h3>
+</section>
+<section id="tabel-daftar-kesepakatan-tindakan" class="level3">
+<h3 class="anchored" data-anchor-id="tabel-daftar-kesepakatan-tindakan">Tabel Daftar Kesepakatan Tindakan</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">No</th>
+<th style="text-align: left;">SIAPA (Peran &amp; Nama Jelas)</th>
+<th style="text-align: left;">Melakukan APA (Tindakan spesifik, operasional, &amp; terukur)</th>
+<th style="text-align: left;">KAPAN (Tenggat waktu: Hari, Tanggal, Jam)</th>
+<th style="text-align: left;">Sumber Daya/Prasyarat (Alat, data, atau persetujuan yang dibutuhkan)</th>
+<th style="text-align: left;">DEFINISI SELESAI (Kriteria konkret untuk menyatakan tugas tuntas)</th>
+<th style="text-align: left;">Metode Tindak Lanjut (Melalui apa, kapan, dan kepada siapa dilaporkan)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Ex</strong></td>
+<td style="text-align: left;"><em>Budi (Developer Database)</em></td>
+<td style="text-align: left;"><em>Melakukan migrasi data menu kantin dari file Excel ke basis data server utama.</em></td>
+<td style="text-align: left;"><em>Rabu, 16 Sept 2026, Pukul 15:00 WIB.</em></td>
+<td style="text-align: left;"><em>Daftar menu final dalam format .xlsx dari Ibu Siti (Pemilik Kantin).</em></td>
+<td style="text-align: left;"><em>Data menu sukses terbaca di halaman preview aplikasi tanpa karakter aneh/error.</em></td>
+<td style="text-align: left;"><em>Mengirim tangkapan layar (screenshot) sukses ke grup WhatsApp Tim Teknis.</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>1</strong></td>
+<td style="text-align: left;">Farrel Garuda Haryono (Lead Developer)</td>
+<td style="text-align: left;">Menyusun dan mengunggah kode sumber modul skrip validasi data otomatis ke repositori GitHub proyek.</td>
+<td style="text-align: left;">Jumat, 20 Okt 2026, Pukul 21:00 WIB.</td>
+<td style="text-align: left;">Draf aturan validasi bisnis dan akses lingkungan pengembangan lokal.</td>
+<td style="text-align: left;">Skrip berhasil melewati pengujian unit test otomatis tanpa pesan galat (<em>error</em>).</td>
+<td style="text-align: left;">Mengirimkan tautan komit repositori GitHub kepada Budi via pesan WhatsApp profesional.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>2</strong></td>
+<td style="text-align: left;">Budi (Manager Operasional)</td>
+<td style="text-align: left;">Menguji coba prototipe antarmuka sistem input data bersama 2 orang staf operasional lapangan.</td>
+<td style="text-align: left;">Senin, 23 Okt 2026, Pukul 16:00 WIB.</td>
+<td style="text-align: left;">Perangkat komputer kantor dan dokumen panduan cetak ringkas (<em>cheat sheet</em>).</td>
+<td style="text-align: left;">Uji coba input 20 sampel data selesai dilakukan dengan waktu total di bawah 15 menit tanpa hambatan berarti.</td>
+<td style="text-align: left;">Menuliskan hasil evaluasi uji coba dalam dokumen ulasan singkat dan mengirimkannya via email kepada Farrel.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>3</strong></td>
+<td style="text-align: left;">Farrel Garuda Haryono (Lead Developer)</td>
+<td style="text-align: left;">Memperbaiki catatan temuan kendala <em>offline caching</em> berdasarkan hasil uji coba operasional lapangan.</td>
+<td style="text-align: left;">Rabu, 25 Okt 2026, Pukul 18:00 WIB.</td>
+<td style="text-align: left;">Catatan ulasan evaluasi dari Budi dan dokumentasi kode sumber sistem.</td>
+<td style="text-align: left;">Fitur penyimpanan lokal sementara (<em>offline caching</em>) aktif dan berfungsi saat simulasi pemutusan jaringan internet.</td>
+<td style="text-align: left;">Melakukan panggilan koordinasi singkat (15 menit) via telepon dengan Budi untuk konfirmasi akhir.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist">Bagian 3: Kontrol Lingkar Komitmen (<em>Commitment Loop Checklist</em>)</h2>
+<p>Komunikasi lingkar tertutup (<em>closed-loop communication</em>) menuntut kita memantau janji sejak pertama kali diucapkan hingga benar-benar diserahkan dan diterima secara memuaskan oleh penerima manfaat.</p>
+<p>Isilah matriks ini untuk melacak kesehatan komitmen setiap butir tindakan di atas:</p>
+<section id="alur-pelacakan-janji" class="level3">
+<h3 class="anchored" data-anchor-id="alur-pelacakan-janji">Alur Pelacakan Janji</h3>
+<pre><code>  [ Fase 1: JANJI ] ───────────► [ Fase 2: CHECKPOINT ]
+          │                                  │
+          ▼                                  ▼
+  [ Fase 4: PENERIMAAN ] ◄──────── [ Fase 3: BUKTI &amp; PEMERIKSAAN ]</code></pre>
+<ol type="1">
+<li><strong>Butir Tindakan No: 1</strong>
+<ul>
+<li><strong>Fase 1: Janji Terbentuk (Hari/Tanggal):</strong> Rabu, 18 Okt 2026</li>
+<li><strong>Fase 2: Checkpoint/Pemeriksaan Awal:</strong>
+<ul>
+<li><em>Kapan Checkpoint dilakukan? (Minimal 2 hari sebelum tenggat):</em> Kamis, 19 Okt 2026, Pukul 14:00 WIB</li>
+<li><em>Apa kemajuan/kendala yang ditemukan saat checkpoint?</em> Modul validasi dasar sudah selesai, namun masih memerlukan penyesuaian parameter aturan input tanggal agar sesuai format lokal.</li>
+</ul></li>
+<li><strong>Fase 3: Bukti &amp; Pemeriksaan Mandiri:</strong>
+<ul>
+<li><em>Bukti nyata apa yang diserahkan sebagai hasil kerja?</em> Tautan repositori GitHub berisi kode program modul validasi terbarui.</li>
+<li><em>Apakah hasil tersebut sudah memenuhi “Definisi Selesai” di Bagian 2?</em> <code>[X] Ya</code> <code>[ ] Belum</code></li>
+</ul></li>
+<li><strong>Fase 4: Penerimaan Resmi:</strong>
+<ul>
+<li><em>Siapa penerima manfaat yang memeriksa dan menyatakan puas?</em> Budi (Manager Operasional)</li>
+<li><em>Catatan penerimaan:</em> Kode sumber telah diverifikasi bersih dari galat dan siap diintegrasikan ke tahap pengujian lapangan.</li>
+</ul></li>
+</ul></li>
+<li><strong>Butir Tindakan No: 2</strong>
+<ul>
+<li><strong>Fase 1: Janji Terbentuk (Hari/Tanggal):</strong> Jumat, 20 Okt 2026</li>
+<li><strong>Fase 2: Checkpoint/Pemeriksaan Awal:</strong>
+<ul>
+<li><em>Kapan Checkpoint dilakukan?</em> Sabtu, 21 Okt 2026, Pukul 10:00 WIB</li>
+<li><em>Apa kemajuan/kendala yang ditemukan saat checkpoint?</em> Jadwal uji coba staf sedikit bergeser karena kesibukan jam operasional harian, namun simulasi mandiri berhasil dijadwalkan ulang pada hari Senin pagi.</li>
+</ul></li>
+<li><strong>Fase 3: Bukti &amp; Pemeriksaan Mandiri:</strong>
+<ul>
+<li><em>Bukti nyata apa yang diserahkan sebagai hasil kerja?</em> Dokumen ulasan evaluasi hasil uji coba input data oleh staf operasional.</li>
+<li><em>Apakah hasil tersebut sudah memenuhi “Definisi Selesai” di Bagian 2?</em> <code>[X] Ya</code> <code>[ ] Belum</code></li>
+</ul></li>
+<li><strong>Fase 4: Penerimaan Resmi:</strong>
+<ul>
+<li><em>Siapa penerima manfaat yang memeriksa dan menyatakan puas?</em> Farrel Garuda Haryono (Lead Developer)</li>
+<li><em>Catatan penerimaan:</em> Staf operasional mampu mengoperasikan antarmuka dengan lancar, tetapi memberikan catatan kecil terkait penambahan fitur <em>offline caching</em>.</li>
+</ul></li>
+</ul></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="bagian-4-evaluasi-jalur-ganda-dual-track-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-4-evaluasi-jalur-ganda-dual-track-evaluation">Bagian 4: Evaluasi Jalur Ganda (Dual-Track Evaluation)</h2>
+<p>Dalam komunikasi yang bertanggung jawab, keberhasilan tindakan tidak hanya dinilai dari tercapainya target pekerjaan, tetapi juga dari bagaimana relasi antar-pribadi dirawat di sepanjang proses kerja sama tersebut.</p>
+<section id="jalur-tugas-task-outcome" class="level3">
+<h3 class="anchored" data-anchor-id="jalur-tugas-task-outcome">1. Jalur Tugas (<em>Task Outcome</em>)</h3>
+<ul>
+<li>Apakah semua target tindakan yang tertulis dalam dokumen kesepakatan ini berhasil diselesaikan sesuai tenggat waktu dan kriteria selesai? Jelaskan kendala nyata lapangan yang sempat dihadapi! Semua target tindakan utama dalam dokumen kesepakatan berhasil diselesaikan sesuai tenggat waktu yang ditetapkan. Kendala nyata di lapangan sempat muncul berupa penyesuaian jadwal uji coba staf akibat jam operasional yang padat, namun berhasil diatasi melalui komunikasi fleksibel dan penjadwalan ulang (<em>checkpoint</em>) yang transparan.</li>
+</ul>
+</section>
+<section id="jalur-relasi-relationship-outcome" class="level3">
+<h3 class="anchored" data-anchor-id="jalur-relasi-relationship-outcome">2. Jalur Relasi (<em>Relationship Outcome</em>)</h3>
+<ul>
+<li>Bagaimana kualitas batin relasi, kepercayaan, dan rasa saling menghargai di antara para pihak setelah melewati proses pengerjaan tugas ini? Apakah ada ketegangan peran yang sempat terjadi, dan bagaimana Anda meredakannya secara asertif? Kualitas relasi dan tingkat kepercayaan antarpihak terbangun dengan sangat baik dan kolaboratif. Sempat terjadi sedikit perbedaan pandangan terkait kecepatan implementasi fitur, namun ketegangan tersebut berhasil diredakan secara asertif dengan mendengarkan kendala operasional secara empati dan menyepakati jalan tengah melalui mitigasi risiko yang realistis.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="rubrik-penilaian-mandiri-umpan-balik-sejawat" class="level2">
+<h2 class="anchored" data-anchor-id="rubrik-penilaian-mandiri-umpan-balik-sejawat">Rubrik Penilaian Mandiri &amp; Umpan Balik Sejawat</h2>
+<p>Evaluasilah kualitas Dokumen Kesepakatan yang Anda susun menggunakan skala nilai berikut: - <strong>Skor 1 (Kurang)</strong>: Banyak bagian menggunakan istilah kabur, penanggung jawab tidak terperinci, atau mengabaikan relasi. - <strong>Skor 2 (Cukup)</strong>: Tindakan sudah terperinci, tetapi kriteria selesai masih subjektif atau tidak menyertakan checkpoint komitmen. - <strong>Skor 3 (Sangat Baik)</strong>: Memenuhi seluruh aspek formula presisi, memetakan kepentingan dengan empati, memiliki mekanisme pelacakan komitmen yang jelas, serta menjaga harmoni relasi secara etis.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 25%">
+<col style="width: 31%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">No</th>
+<th style="text-align: left;">Aspek Penilaian Kinerja</th>
+<th style="text-align: center;">Skor (1-3)</th>
+<th style="text-align: left;">Bukti Perilaku / Catatan Perbaikan Mandiri</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>1</strong></td>
+<td style="text-align: left;"><strong>Kejelasan Kepentingan (Bukan Posisi)</strong>:<br>Mampu melampaui ego tuntutan permukaan dan merumuskan titik temu kepentingan yang saling melayani peran masing-masing.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Berhasil memetakan kebutuhan mendasar Budi (efisiensi operasional tanpa lembur) dan kebutuhan Farrel (stabilitas sistem dan mitigasi <em>error</em>).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>2</strong></td>
+<td style="text-align: left;"><strong>Presisi Formula Kesepakatan</strong>:<br>Semua rencana tindakan bebas dari istilah kabur, mencantumkan penanggung jawab tunggal (<em>Who</em>), tenggat waktu yang pas (<em>When</em>), dan definisi selesai yang objektif.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Seluruh rumusan tindakan menggunakan kata kerja operasional yang jelas, penanggung jawab spesifik, waktu presisi, serta kriteria selesai terukur.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>3</strong></td>
+<td style="text-align: left;"><strong>Tanggung Jawab Pemeliharaan Komitmen</strong>:<br>Memiliki rencana titik pemeriksaan (<em>checkpoint</em>) konkret sebagai mitigasi risiko kegagalan, bukan sekadar menunggu hari H tenggat waktu.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Menyertakan jadwal <em>checkpoint</em> rutin sebelum batas waktu akhir untuk memantau kemajuan serta mendeteksi dini potensi hambatan operasional.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>4</strong></td>
+<td style="text-align: left;"><strong>Keseimbangan Jalur Ganda</strong>:<br>Menunjukkan kepedulian yang tulus terhadap kenyamanan relasi, hak berpendapat, serta batas kemampuan etis tim (menyediakan ruang untuk berkata “tidak” tanpa intimidasi).</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Merawat harmoni kerja sama melalui komunikasi asertif, mendengarkan masukan pengguna, serta memberikan ruang fleksibilitas waktu yang wajar.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>“Bahasa mengantarkan kita pada jembatan pemahaman, tetapi kesepakatan yang berpusat pada tanggung jawab bersama adalah kendaraan yang membawa kita melintasi jembatan tersebut menuju kenyataan tindakan.”</em></p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Kembali ke atas</a></main> <!-- /main -->
@@ -906,13 +1214,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../portfolio/week-09.html" class="pagination-link" aria-label="Desire-State Communication">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Desire-State Communication</span>
+      <a href="../portfolio/week-09.html" class="pagination-link" aria-label="Lembar Kerja Bab 09">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Lembar Kerja Bab 09</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../portfolio/week-11.html" class="pagination-link" aria-label="Multi-Person Negotiation Challenge">
-        <span class="nav-page-text">Multi-Person Negotiation Challenge</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../portfolio/week-11.html" class="pagination-link" aria-label="Lembar Kerja Bab 11">
+        <span class="nav-page-text">Lembar Kerja Bab 11</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
