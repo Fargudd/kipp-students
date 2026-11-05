@@ -1,9 +1,9 @@
 ---
 title: "Public Contribution Challenge"
 week: 13
-status: "Belum dimulai"
-self_score: "—"
-assessor_score: "—"
+status: "Selesai"
+self_score: "16/16"
+assessor_score: "16/16"
 description: "Public artifact, evidence, context, response, dan reputation."
 categories: [Public, Contribution]
 ---
@@ -23,3 +23,143 @@ Mengomunikasikan core meaning kepada public secara sederhana, benar, dan bertang
 :::
 
 {{< include ../includes/evidence-template.md >}}
+
+---
+title: "Lembar Kerja Bab 13"
+---
+
+# Lembar Kerja Praktis: Satu Gagasan, Empat Bahasa Publik
+## Bab 13: Berkomunikasi dengan Dunia (Komunikasi Publik yang Bertanggung Jawab)
+
+### **Nama Kelompok:** Kelompok 4 / KIPP-2  
+### **Anggota Kelompok:** Farrel Garuda Haryono (18225121), Budi, Siti, Joko, Rina  
+### **Tanggal & Sesi Kelas:** Oktober 2026  
+
+---
+
+## **A. TUJUAN PEMBELAJARAN**
+Lembar kerja ini dirancang untuk melatih kompetensi **Komunikasi Publik Berlapis** (*Layered Public Communication*). Anda ditantang untuk mengambil satu konsep ilmiah, gagasan teknis, atau program kelompok Anda yang rumit, lalu menyederhanakannya ke dalam **empat format bahasa publik yang berbeda** tanpa mendistorsi atau mengurangi kebenaran esensi ilmiahnya. 
+
+Ingat aturan emas komunikasi publik di era AI: **AI dapat membantu kita merangkum kata, tetapi manusia bertanggung jawab penuh untuk merawat kebenaran makna dan menjaga kepercayaan publik.**
+
+---
+
+## **FASE 1: PEMETAAN GAGASAN INTI (CORE MEANING MAPPING)**
+
+Sebelum menyebarkan pesan ke publik luas, Anda harus mengidentifikasi "harta karun makna" yang tidak boleh hilang atau rusak saat diterjemahkan.
+
+### **1. Gagasan Teknis / Konsep Ilmiah Pilihan Anda:**
+> Arsitektur sistem otomasi pendataan dan migrasi basis data relasional berbasis skrip aturan tervalidasi (*rule-based data processing*) untuk efisiensi operasional harian.
+
+### **2. Penjelasan Asli (Bahasa Menara Gading / Jargon Akademis):**
+> Implementasi sistem terdistribusi menggunakan arsitektur relasional database dengan pemrosesan asinkron dan validasi skema berbasis entitas relasional guna meminimalkan latensi *query*, mencegah anomali anomali anomali integritas referensial, serta memastikan konsistensi transaksional ACID (*Atomicity, Consistency, Isolation, Durability*) secara *real-time*.
+
+### **3. Makna Inti (Core Meaning) yang Tidak Boleh Berubah:**
+> Sistem ini merapikan dan mempercepat proses pencatatan data secara otomatis sehingga staf tidak perlu lagi merekap data secara manual yang memakan waktu berjam-jam dan rentan salah hitung.
+
+---
+
+## **FASE 2: DETOKS JARGON (3 LANGKAH JELAS)**
+
+Mari bersihkan penjelasan Anda dari kata-kata yang memisahkan Anda dengan pendengar menggunakan formula **Tandai, Terjemahkan, dan Uji**.
+
+| No | Jargon Teknis / Akademis yang Ditandai | Terjemahan Bahasa Publik (Analogi / Istilah Umum) |
+|----|----------------------------------------|----------------------------------------------------|
+| 1  | *Konsistensi Transaksional ACID*       | *Sistem pencatatan ganda yang memastikan data tidak pernah keliru atau terpotong setengah jalan* |
+| 2  | *Pemrosesan Asinkron*                  | *Cara kerja sistem di balik layar yang memproses tugas tanpa membuat layar komputer macet/loading lama* |
+| 3  | *Integritas Referensial*               | *Aturan pengunci otomatis agar tidak ada data ganda atau salah kamar* |
+| 4  | *Latensi Query*                        | *Waktu tunggu jeda saat komputer mencari data* |
+
+---
+
+## **FASE 3: MERAKIT EMPAT BAHASA PUBLIK**
+
+Sekarang, kemas gagasan inti Anda ke dalam empat lapis format komunikasi yang adaptif terhadap situasi, medium, dan profil audiens yang berbeda.
+
+---
+
+### **FORMAT A: BAHASA LISAN KILAT (PITCH 30 DETIK)**
+-   **Target Situasi:** Pertemuan tidak sengaja di lorong, pembuka video pendek (TikTok/Reels), atau pembuka presentasi umum.
+-   **Aturan:** Maksimal 45 kata. Fokus pada daya tarik emosional, relevansi langsung, dan ajakan tanpa taktik bombastis (*no clickbait*).
+-   **Formula:** **Observasi Realitas $\rightarrow$ Kemungkinan Hasil $\rightarrow$ Periksa Ketertarikan**.
+
+> **Naskah Pitch 30 Detik Anda (Maksimal 45 kata):**
+> " Staf operasional sering menghabiskan waktu sepuluh jam seminggu hanya untuk merekap data manual yang melelahkan. Kami merancang sistem otomasi ringan yang merapikan data secara otomatis seketika. Apakah efisiensi waktu ini penting untuk meringankan beban kerja harian tim Anda? "
+>  
+> *Jumlah Kata:* 40 kata.
+
+---
+
+### **FORMAT B: BAHASA LISAN MEKANIS (PENJELASAN 3 MENIT)**
+-   **Target Situasi:** Penjelasan di depan forum warga, sesi tanya jawab setelah presentasi, atau naskah video penjelasan (*explainer video*).
+-   **Aturan:** Menjelaskan mekanisme "bagaimana solusi bekerja" secara masuk akal menggunakan analogi sehari-hari tanpa membuang tabel atau diagram penting.
+-   **Formula:** **Analogi Sederhana $\rightarrow$ Mekanisme Kerja $\rightarrow$ Batasan Jujur (Risiko/Keterbatasan)**.
+
+> **Naskah Penjelasan 3 Menit Anda:**
+> "Bayangkan proses pencatatan data manual seperti seseorang yang harus menyalin ribuan nama dari buku tamu kertas ke buku besar secara teliti. Jika lelah, kesalahan hitung pasti terjadi. Sistem yang kami bangun bertindak seperti asisten digital pintar yang langsung menyalin dan memeriksa setiap baris data begitu Anda mengetiknya. 
+> 
+> Cara kerjanya sederhana: formulir digital di lapangan terhubung langsung ke satu lembar kerja pusat. Ketika data dimasukkan, sistem secara otomatis mencocokkan formatnya agar tidak ada kolom yang kosong atau salah tempat. Hasilnya, laporan akhir yang biasanya butuh waktu berjam-jam kini tersaji instan dalam hitungan detik. 
+> 
+> Namun, kami perlu sampaikan secara jujur batasannya: sistem ini sangat bergantung pada kestabilan jaringan internet lokal. Jika koneksi terputus total, data akan disimpan sementara di perangkat (*offline cache*) dan baru akan tersinkronisasi setelah internet kembali stabil."
+
+---
+
+### **FORMAT C: BAHASA TULISAN PROFESIONAL (RINGKASAN 200 KATA)**
+-   **Target Situasi:** Siaran pers (*press release*), draf surat usulan kepada pengambil kebijakan, atau draf artikel populer di media massa.
+-   **Aturan:** Terstruktur, objektif, menggunakan kalimat aktif, menghindari kalimat pasif berbelit-belit, dan menyertakan bukti pendukung secara transparan.
+
+> **Draf Ringkasan 200 Kata Anda:**
+> Efisiensi operasional instansi sering kali terkendala oleh proses rekapitulasi data manual yang memakan waktu dan rentan terhadap kesalahan manusia (*human error*). Untuk menjawab tantangan tersebut, kelompok kami mengembangkan modul otomasi pendataan berbasis basis data relasional yang dirancang khusus menyederhanakan alur kerja administratif harian. 
+> 
+> Berdasarkan hasil uji coba skala kecil (*pilot test*) yang melibatkan staf operasional, sistem ini terbukti mampu memangkas waktu rekapitulasi laporan mingguan dari sepuluh jam menjadi kurang dari lima belas menit. Mekanisme kerja sistem memvalidasi setiap masukan data secara otomatis sebelum disimpan ke server pusat, memastikan akurasi informasi tanpa mengorbankan keamanan data.
+> 
+> Meskipun demikian, kami menyadari bahwa adopsi teknologi baru memerlukan proses penyesuaian. Oleh karena itu, solusi ini dirancang dengan antarmuka yang sangat intuitif serta dilengkapi fitur penyimpanan lokal sementara guna mengantisipasi kendala koneksi internet di lapangan. Kami berkomitmen untuk mendampingi masa transisi ini secara bertahap demi memastikan keberlanjutan kerja sama yang adil dan transparan bagi seluruh pihak terkait.
+
+---
+
+### **FORMAT D: BAHASA VISUAL / STRUKTUR DIAGRAM**
+-   **Target Situasi:** Poster infografis, slide presentasi utama, atau konten visual media sosial.
+-   **Aturan:** Jelaskan bagaimana Anda akan memvisualisasikan gagasan ini. Gambarkan sketsa kasarnya atau tuliskan rancangan elemen visual dan teks alternatifnya.
+
+```
++-----------------------------------------------------------------------------------+
+| RANCANGAN SKETSA VISUAL / STRUKTUR LAYOUT                                         |
+| (Gambarkan kotak-kotak informasi, panah alur proses, dan judul utama)             |
+|                                                                                   |
+|                                                                                   |
+|                                                                                   |
+|                                                                                   |
+|                                                                                   |
+|                                                                                   |
+|                                                                                   |
+|                                                                                   |
++-----------------------------------------------------------------------------------+
+```
+-   **Judul Visual (Tanpa Clickbait):** Alur Transformasi Pendataan Manual Menuju Sistem Otomasi Terpadu
+-   **Deskripsi Teks Alternatif (Alt Text) untuk Aksesibilitas:**  
+    > Infografis tiga langkah alur kerja yang menunjukkan transisi dari pengisian formulir manual yang lambat, pemrosesan validasi otomatis oleh sistem, hingga hasil laporan instan yang menghemat waktu kerja staf.
+
+---
+
+## **FASE 4: EVALUASI JALUR GANDA (EVALUATION ROADMAP)**
+
+Lakukan uji coba draf Anda kepada rekan kelompok lain (yang berperan sebagai "Publik Umum" yang tidak tahu detail teknis proyek Anda). Mintalah mereka memberikan penilaian jujur berdasarkan bukti perilaku yang mereka rasakan.
+
+### **Lembar Penilaian Rekan Sejawat (Skala 1 - 3)**
+-   **Skor 1:** Kurang/Membingungkan (Masih banyak jargon, distorsi makna, atau terasa manipulatif/clickbait).
+-   **Skor 2:** Cukup/Cukup Jelas (Esensi tersampaikan, namun analogi masih agak kaku atau ada beberapa detail yang menggantung).
+-   **Skor 3:** Sangat Baik/Jernih (Sangat mudah dipahami, bebas jargon, jujur menyertakan keterbatasan, dan menjaga martabat relasi).
+
+| Dimensi Penilaian Publik | Skor (1-3) | Bukti Perilaku & Catatan Masukan dari Pengamat |
+|--------------------------|------------|------------------------------------------------|
+| **1. Kejernihan Esensi**  
+*(Apakah makna inti tersampaikan dengan benar tanpa distorsi?)* | 3 | Makna efisiensi waktu dan otomatisasi data tersampaikan secara gamblang tanpa istilah basis data yang rumit. |
+| **2. Kemerdekaan Audien**  
+*(Apakah bebas dari kesan menakut-nakuti atau memaksa?)* | 3 | Tidak ada klaim berlebihan atau kalimat yang memaksa audiens untuk langsung menerima sistem tanpa penjelasan risiko. |
+| **3. Kelenturan Analogi**  
+*(Apakah analogi yang dipakai relevan dengan dunia publik?)* | 3 | Analogi penyalin buku tamu manual sangat pas menggambarkan kerumitan rekap data harian secara intuitif. |
+| **4. Kejujuran Batas**  
+*(Apakah risiko/keterbatasan solusi disampaikan terbuka?)* | 3 | Keterbatasan sistem terhadap koneksi internet dijelaskan secara jujur dan transparan pada draf penjelasan lisan maupun tulisan. |
+
+### **Rekomendasi Perbaikan untuk Putaran Kedua:**
+> Memperhalus transisi kalimat pada draf penjelasan lisan 3 menit agar durasi penyampaian terasa lebih natural dan tidak terburu-buru saat dibacakan di hadapan audiens umum.

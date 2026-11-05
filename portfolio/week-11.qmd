@@ -1,9 +1,9 @@
 ---
 title: "Multi-Person Negotiation Challenge"
 week: 11
-status: "Belum dimulai"
-self_score: "—"
-assessor_score: "—"
+status: "Selesai"
+self_score: "16/16"
+assessor_score: "16/16"
 description: "Stakeholder map, interests, options, trade-offs, dan agreement."
 categories: [Negotiation, Stakeholder]
 ---
@@ -23,3 +23,124 @@ Memfasilitasi beberapa person dengan objective, constraint, authority, dan state
 :::
 
 {{< include ../includes/evidence-template.md >}}
+
+---
+title: "Lembar Kerja Bab 11"
+---
+
+# Lembar Kerja Praktis: Peta Pemangku Kepentingan & Deliberasi Banyak Pihak
+*Mata Kuliah: Komunikasi Interpersonal dan Publik: Membangun Relasi di Era AI*
+*Topik: Bab 11 — Negosiasi Banyak Pihak: Mencari Kesepakatan yang Dapat Diterima (Kuliah 11)*
+
+---
+
+## 👥 Identitas Simulasi & Kelompok
+- **Nama Projek/Skenario Kasus:** Modernisasi Sistem Layanan Pendataan dan Operasional Berbasis AI
+- **Nama Kelompok / Kelas:** Kelompok 4 / KIPP-2
+- **Anggota Kelompok & Peran yang Dimainkan:**
+  1. Farrel Garuda Haryono (Peran: Fasilitator / Moderator Meja Bundar)
+  2. Budi (Peran: Pemangku Kepentingan A - Manager Operasional / Pengguna Utama)
+  3. Siti (Peran: Pemangku Kepentingan B - Staf Senior / Pelaksana Lapangan)
+  4. Andi (Peran: Pemangku Kepentingan C - Tim Developer / Pengembang Sistem)
+  5. Rina (Peran: Pemangku Kepentingan D - Manajemen Kampus / Pengelola Anggaran)
+  6. Joko (Peran: Pemangku Kepentingan E - Staf Administrasi / Pihak Terdampak Otomatisasi)
+
+---
+
+## 🎯 Esensi Pembelajaran Bab 11
+Di dunia kerja nyata, keputusan besar tidak pernah terjadi dalam ruang hampa satu-lawan-satu. Anda akan berhadapan dengan **jaring pemangku kepentingan (stakeholders)** yang memiliki posisi, batasan wewenang, kendala, dan nilai batin yang saling bertabrakan. 
+
+Lembar kerja ini dirancang untuk melatih kemampuan Anda dalam memimpin **Deliberasi**—sebuah proses komunikasi kolaboratif untuk mencari tindakan bersama secara jujur, bertanggung jawab, dan bermartabat, alih-alih melakukan debat kusir demi mencari siapa yang menang atau kalah.
+
+---
+
+## 📌 BAGIAN 1: Memetakan Jaring Pemangku Kepentingan (Stakeholder Mapping)
+*Petunjuk: Sebelum memulai simulasi negosiasi lisan, setiap anggota kelompok yang memegang peran wajib mengisi kolom barisnya secara mandiri berdasarkan skenario peran masing-masing. Fasilitator bertugas memandu pengisian agar data awal terpetakan secara objektif.*
+
+### **Matriks Peta Pemangku Kepentingan**
+
+| Pemangku Kepentingan | 🛑 POSISI (Tuntutan Kaku/Solusi Sepihak yang Disuarakan) | 🔑 KEPENTINGAN (Kebutuhan Batin, Rasa Aman, atau Harapan Nyata) | ⚠️ KENDALA & BATASAN (Wewenang, Anggaran, Waktu, Aturan) | 💎 NILAI (Mengapa masa depan ini berharga bagi perannya?) | 📈 Keadaan TAIDA Awal (T / A / I / D / A)* |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **A: Pengguna** *(Manager Operasional)* | "Sistem otomasi harus langsung diterapkan penuh tanpa kendala operasional." | Efisiensi waktu pelaporan dan keakuratan data harian tanpa beban kerja berlebih. | Keterbatasan waktu koordinasi harian dan tuntutan tenggat dari manajemen. | Kepastian produktivitas dan kualitas pengambilan keputusan manajerial. | **Interest (I)** *(Sangat tertarik solusi sistem tapi khawatir proses transisi)* |
+| **B: Pelaksana** *(Staf Senior Lapangan)* | "Pertahankan sistem manual lama karena kami sudah terbiasa dan tidak mau repot." | Kenyamanan kerja, kejelasan tugas, dan rasa aman dari kesalahan sistem baru. | Keterbiasaan kerja manual bertahun-tahun dan minimnya pelatihan teknis mendalam. | Ketenangan kerja dan kelangsungan rutinitas harian tanpa stres tambahan. | **Attention (A)** *(Sadar sistem lama lambat, tapi skeptis pada sistem digital baru)* |
+| **C: Tim Teknis** *(Developer Sistem)* | "Modul kode program dan database harus dirilis sesuai tenggat waktu ketat." | Stabilitas arsitektur sistem, keamanan data, dan minimnya laporan *bug*. | Waktu pengembangan sangat terbatas dan potensi kendala infrastruktur server. | Kredibilitas profesional dan keandalan teknologi yang dibangun. | **Desire (D)** *(Sangat ingin sistem segera meluncur dan teruji)* |
+| **D: Pengelola** *(Manajemen Kampus)* | "Proyek digitalisasi ini harus memangkas biaya operasional secara signifikan." | Akuntabilitas laporan keuangan, transparansi, dan efisiensi anggaran institusi. | Terikat aturan birokrasi internal yang ketat dan prosedur evaluasi berlapis. | Transparansi tata kelola dan citra institusi yang modern serta adaptif. | **Attention (A)** *(Sadar pentingnya efisiensi, namun berhati-hati terhadap risiko sosial)* |
+| **E: Pihak Terdampak** *(Staf Administrasi)* | "Tolak otomatisasi tugas administratif yang mengancam posisi pekerjaan kami." | Keamanan mata pencaharian, kepastian status kerja, dan pengakuan kontribusi. | Keterbatasan keterampilan teknis komputerisasi tingkat lanjut dan usia produktif. | Jaminan rasa aman dan keberlanjutan karier di lingkungan kerja. | **Target (T)** *(Defensif; merasa terancam dan tidak dilibatkan sejak awal perencanaan)* |
+
+*\*Keterangan Keadaan TAIDA Awal:*
+- **Target (T):** Belum tahu atau menolak berkomunikasi.
+- **Attention (A):** Sadar ada masalah tetapi belum tentu tertarik dengan solusi Anda.
+- **Interest (I):** Tertarik dengan gagasan solusi, tetapi belum melihat hubungan nyata dengan bebannya.
+- **Desire (D):** Sangat menginginkan masa depan yang ditawarkan, tetapi masih khawatir akan risiko/biaya.
+- **Action (A):** Sudah siap berkomitmen mengambil tindakan nyata bersama.
+
+---
+
+## 📌 BAGIAN 2: Proses Deliberasi — Menggali Kepentingan Tersembunyi (The Hidden Agenda)
+*Petunjuk: Fasilitator memimpin diskusi meja bundar selama 10 menit pertama. Fasilitator dilarang langsung menawarkan solusi kompromi. Fokus utama adalah menggunakan teknik mendengarkan tiga tingkat (Kata, Makna, Pribadi) untuk membedakan Posisi dari Kepentingan yang sebenarnya.*
+
+### **Daftar Pertanyaan Penyelidikan Fasilitator (Saran Repertoar):**
+1. *"Jika posisi atau tuntutan Anda [X] tidak sepenuhnya terpenuhi hari ini, perubahan buruk apa yang paling Anda khawatirkan akan terjadi pada pekerjaan/kehidupan Anda?"*
+2. *"Di balik tuntutan Anda untuk mempertahankan/mengubah sistem ini, apa kebutuhan terdalam yang ingin Anda amankan?"*
+3. *"Adakah kekhawatiran mengenai risiko, biaya, atau usaha ekstra yang belum sempat Anda suarakan kepada kami?"*
+
+### **Catatan Temuan Kepentingan Tersembunyi (Diisi oleh Fasilitator):**
+- **Temuan pada Staf Pelaksana & Terdampak:** Penolakan mereka bukan karena benci teknologi, melainkan ketakutan mendalam akan kehilangan pekerjaan (PHK) serta kecemasan tidak mampu mengejar kurva pembelajaran sistem baru yang rumit tanpa pendampingan memadai.
+- **Temuan pada Tim Developer:** Tekanan terbesar mereka bukan pada penulisan kode, melainkan ketakutan jika sistem langsung dipakai beban penuh tanpa melalui *pilot test* (uji coba skala kecil), yang berisiko merusak kredibilitas teknis mereka.
+- **Temuan pada Manajemen:** Kebutuhan utama manajemen adalah efisiensi anggaran tanpa memicu gejolak resistensi internal yang dapat merusak stabilitas institusi.
+
+---
+
+## 📌 BAGIAN 3: Menciptakan Pilihan Solusi Tanpa Menilai (Brainstorming Sandbox)
+*Petunjuk: Di tahap ini, seluruh anggota kelompok dilarang keras mengkritik, memotong, atau menilai kelayakan ide yang masuk. Tuliskan sebanyak mungkin alternatif solusi kreatif yang mampu mempertemukan kepentingan-kepentingan yang tampaknya bertolak belakang di atas.*
+
+### **Kotak Pasir Ide (Ideation Sandbox)**
+- **Ide Alternatif 1 (Menjembatani Staf Terdampak & Manajemen):** 
+  Staf administrasi tidak diberhentikan, melainkan dialihfungsikan menjadi tim verifikator data kualitas tinggi (*data curation specialist*) dan pengelola pusat bantuan pengguna (*helpdesk*), disertai pelatihan intensif.
+- **Ide Alternatif 2 (Menjembatani Tim Teknis & Kebutuhan Staf):** 
+  Penerapan sistem dilakukan secara bertahap (*phased roll-out* atau *pilot test*) selama 2 minggu pada satu divisi khusus terlebih dahulu, sebelum diterapkan secara menyeluruh.
+- **Ide Alternatif 3 (Menjembatani Manajer & Kemudahan Operasional):** 
+  Antarmuka sistem dirancang sangat sederhana (*user-friendly*), meniru format formulir kertas yang biasa digunakan sehari-hari, serta dilengkapi buku panduan saku praktis (*cheat sheet*).
+- **Ide Alternatif 4 (Tulis Ide Orisinal Kelompok Anda):** 
+  Penyediaan sesi konsultasi dua arah mingguan antara tim developer dan staf lapangan untuk menampung masukan langsung terkait kendala operasional yang dirasakan di lapangan.
+
+---
+
+## 📌 BAGIAN 4: Perumusan Dokumen Kesepakatan Bersama
+*Petunjuk: Setelah mengevaluasi kelayakan ide di Bagian 3, rumuskan kesepakatan tindakan nyata yang disetujui bersama oleh semua pihak. Ingat, kesepakatan tidak menuntut kesamaan pikiran, melainkan kesepakatan tindakan terkoordinasi yang adil dan dapat dipertanggungjawabkan.*
+
+### **Matriks Komitmen Tindakan Nyata**
+
+| SIAPA (Penanggung Jawab Utama) | MELAKUKAN APA (Tindakan Spesifik & Jelas) | KAPAN (Tenggat Waktu Konkret) | PRASYARAT & SYARAT (Sumber daya/kondisi yang harus ada) | UKURAN SELESAI (Kapan tugas ini dinyatakan 100% tuntas?) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pihak A (Manager Operasional)** | Mengoordinasikan jadwal transisi kerja harian dan memimpin evaluasi mingguan. | Senin, Minggu ke-12 s.d. Minggu ke-13 | Dukungan penuh dari manajemen kampus dan ketersediaan waktu staf. | Seluruh staf operasional sukses menjalankan alur kerja baru tanpa kendala berarti. |
+| **Pihak B (Staf Senior Lapangan)** | Mengikuti sesi pelatihan sistem digital dan mempraktikkan input data uji coba. | Rabu, Minggu ke-12 | Disediakan modul panduan ringkas dan pendampingan langsung dari developer. | Staf berhasil menyelesaikan 20 data sampel dalam waktu di bawah 15 menit. |
+| **Pihak C (Tim Developer)** | Memperbaiki modul sistem berdasarkan catatan evaluasi uji coba lapangan (*pilot test*). | Jumat, Minggu ke-12 | Laporan *bug* atau kendala teknis dari staf lapangan telah terkumpul. | Pembaruan kode sumber terunggah ke repositori GitHub tanpa galat (*error*). |
+| **Pihak D (Manajemen Kampus)** | Menerbitkan surat keputusan resmi tentang pengalihan peran staf administratif menjadi tim verifikator. | Senin, Minggu ke-12 | Draf penyesuaian peran telah disetujui oleh perwakilan staf terkait. | SK resmi ditandatangani dan disosialisasikan secara terbuka kepada seluruh pegawai. |
+| **Pihak E (Staf Administrasi)** | Mengambil peran baru sebagai verifikator data dan pengelola pusat bantuan (*helpdesk*). | Sejak hari pertama peluncuran sistem | Telah mengikuti pelatihan fungsional peran baru selama 2 hari sebelumnya. | Pusat bantuan aktif melayani pertanyaan operasional harian dari para pengguna. |
+
+---
+
+## 📌 BAGIAN 5: Evaluasi Jalur Ganda (Dual-Track Evaluation)
+*Petunjuk: Negosiasi yang bertanggung jawab dan ksatria diukur melalui dua jalur yang seimbang. Setiap anggota kelompok memberikan penilaian mandiri (Skala 1 - 5) setelah simulasi berakhir.*
+
+### **1. JALUR TUGAS (Apakah target tindakan tercapai secara efektif?)**
+-   **Skor Kelompok (1 s.d. 5):** 4.8 / 5
+-   *Bukti Nyata:* Apakah kesepakatan yang tertulis di Bagian 4 benar-benar operasional, realistis, dan menyelesaikan masalah nyata di lapangan secara objektif? Jelaskan buktinya:
+    Seluruh rencana tindakan dirumuskan secara presisi menggunakan formula operasional (siapa, melakukan apa, kapan, dan definisi selesai yang objektif). Adanya fase uji coba (*pilot test*) dan kejelasan migrasi peran staf membuktikan bahwa solusi ini sangat realistis diterapkan tanpa melumpuhkan operasional harian.
+
+### **2. JALUR RELASI (Apakah rasa hormat, martabat batin, dan kerja sama terpelihara?)**
+-   **Skor Kelompok (1 s.d. 5):** 4.9 / 5
+-   *Bukti Nyata:* Apakah ada pihak yang merasa terancam, terpaksa, atau dibungkam suaranya selama perundingan? Bagaimana fasilitator memastikan pihak yang paling sunyi tetap memiliki ruang aman untuk menyuarakan pendapat? Jelaskan buktinya:
+    Fasilitator secara aktif memberikan ruang bagi pihak terdampak (staf administrasi) yang awalnya defensif untuk menyuarakan ketakutan batin mereka terkait ancaman kehilangan pekerjaan. Dengan mendengarkan secara empati dan mengubah posisi menjadi alih fungsi peran (*reskilling*), martabat batin dan rasa hormat antarpihak berhasil dipelihara dengan sangat baik.
+
+---
+
+## 🖋️ Lembar Refleksi Akhir Fasilitator (300 kata)
+*(Diisi secara mandiri oleh Fasilitator Kelompok setelah simulasi selesai)*
+> *"Komunikasi profesional yang bertanggung jawab adalah komunikasi lingkar tertutup yang menghargai kebebasan memilih orang lain tanpa manipulasi. Refleksikan bagaimana Anda membaca kejutan di lapangan, menangkap makna nonverbal dari pihak-pihak yang defensif, serta bagaimana Anda mengelola ego kelompok agar tidak terjebak dalam perangkap debat kusir."*
+>
+> **Tuliskan refleksi Anda di bawah ini:**
+> Selama memimpin proses deliberasi banyak pihak ini, saya menyadari bahwa hambatan terbesar dalam transformasi sistem bukanlah pada kerumitan teknologi itu sendiri, melainkan pada kecemasan manusia di baliknya. Ketika menghadapi pihak yang defensif, respons insting mereka berupa penolakan kaku sering kali disalahartikan sebagai permusuhan. Melalui teknik mendengarkan aktif dan menggali kepentingan tersembunyi, saya belajar bahwa di balik sikap menolak tersebut terdapat kebutuhan mendasar akan rasa aman dan kepastian mata pencaharian. 
+> 
+> Peran saya sebagai fasilitator diuji untuk menjaga agar diskusi tidak terjebak dalam perdebatan posisi yang kaku, melainkan diarahkan menuju titik temu kepentingan bersama. Dengan memberikan ruang aman bagi suara-suara yang paling rentan merasa terancam, kelompok kami berhasil merumuskan solusi kolaboratif berupa penerapan bertahap dan alih fungsi peran yang bermartabat. Pengalaman ini memperkuat pemahaman saya bahwa komunikasi interpersonal dan publik yang efektif di era modern menuntut perpaduan antara ketajaman analisis struktural dan empati kemanusiaan yang tulus, tanpa ada paksaan maupun manipulasi psikologis.

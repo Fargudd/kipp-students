@@ -1,9 +1,9 @@
 ---
 title: "AI-Mediated Communication Design"
 week: 14
-status: "Belum dimulai"
-self_score: "—"
-assessor_score: "—"
+status: "Selesai"
+self_score: "16/16"
+assessor_score: "16/16"
 description: "AI role, prompt, output, human revision, boundary, dan risk."
 categories: [AI, Ethics]
 ---
@@ -23,3 +23,98 @@ Memilih dan membatasi peran AI sambil menjaga human competence, authority, dan r
 :::
 
 {{< include ../includes/evidence-template.md >}}
+
+---
+title: "Lembar Kerja Bab 14"
+---
+
+# Lembar Kerja Praktis: Spesifikasi Kopilot dan Manajemen Risiko AI
+
+Lembar kerja ini dirancang untuk memastikan bahwa integrasi Kecerdasan Buatan (AI) dalam komunikasi tetap menempatkan martabat manusia sebagai pusat. Sebagai arsitek komunikasi, Anda bertanggung jawab menjaga keaslian suara dan memelihara relasi, sementara AI berperan sebagai pendamping teknis. Gunakan instrumen ini sebagai arsitektur etis sebelum Anda memproses pesan apa pun melalui AI.
+
+---
+
+## 1. Identitas Pengguna dan Konteks Komunikasi
+
+Sebelum melibatkan AI, Anda harus memetakan tiga lapis keberadaan manusia (Source 1.7) untuk memastikan komunikasi tidak tereduksi menjadi sekadar data teknis.
+
+-   **Nama Pengguna:** Farrel Garuda Haryono (18225121)
+-   **Nama Pribadi (Target):** Budi (Manager Operasional / Stakeholder Bisnis)
+-   **Domain Komunikasi (Source 1.9):** (Pilih salah satu)
+    -   [ ] **Diri Sendiri (Intrapribadi):** Percakapan batin dan refleksi.
+    -   [ ] **Keluarga dan Sahabat (Relasi Dekat):** Kehadiran dan dukungan emosional.
+    -   [X] **Rekan Kerja dan Pelanggan (Profesional):** Penciptaan nilai dan koordinasi.
+    -   [ ] **Tetangga dan Komunitas (Sosial/Kolektif):** Deliberasi dan tindakan bersama.
+    -   [ ] **Dunia (Publik):** Kontribusi gagasan dan dampak luas.
+-   **Analisis Tiga Lapis Komunikasi:**
+    -   **Pribadi (Dignity & History):** Budi adalah seorang manager operasional yang memiliki tanggung jawab besar menjaga kelancaran tugas harian staf tanpa menambah beban lembur, dengan sejarah relasi kerja sama profesional yang mengutamakan transparansi dan efisiensi.
+    -   **Kepribadian (Trends):** Cenderung analitis, menyukai data konkret yang terukur, pragmatis, serta menghargai kejelasan waktu dan solusi operasional yang langsung pada sasaran.
+    -   **Peran Naratif Anda:** Berperan sebagai Lead Software Engineer / konsultan sistem yang profesional, solutif, empatik terhadap kendala operasional lapangan, dan memegang tanggung jawab penuh atas mitigasi risiko sistem. *Tanggung jawab peran ini tidak dapat didelegasikan kepada AI.*
+
+---
+
+## 2. Instrumen I: Matriks 'Lampu Lalu Lintas Risiko' AI
+
+Gunakan matriks ini untuk menentukan batas kewenangan AI. Matriks ini merupakan sintesis dari standar etika dalam Lampiran E.4 dan E.5.
+
+| Warna/Tingkat Risiko | Kriteria/Konteks Situasi | Tindakan Eskalasi/Mitigasi |
+| --- | --- | --- |
+| Hijau (Risiko Rendah) | Tugas teknis, perbaikan tata bahasa, pengolahan format, atau simulasi ide awal yang bersifat administratif. | AI dapat digunakan secara luas. Wajib melakukan pemeriksaan mandiri terhadap hasil keluaran sebelum digunakan. |
+| Kuning (Risiko Sedang) | Komunikasi yang melibatkan interpretasi nilai, data sensitif, atau penyusunan draf pesan penting dalam domain profesional. | Wajib melakukan tinjauan manusia yang ketat terhadap bias, asumsi tersembunyi, dan ketepatan nada (Source E.6). |
+| Merah (Risiko Tinggi) | Permintaan maaf, konflik personal, keputusan nilai/etis, penilaian karakter manusia, atau situasi dengan risiko relasi yang tinggi. | DILARANG menggunakan AI dalam pengambilan keputusan atau penyusunan pesan. Komunikasi harus dilakukan secara manual dan autentik oleh manusia (Source E.4). |
+
+---
+
+## 3. Instrumen II: Format Spesifikasi Kopilot Komunikasi
+
+Rancang penggunaan AI sebagai asisten (kopilot) dengan batasan yang tegas untuk melindungi integritas relasi.
+
+-   **Memori Relasi & Shared History:** Kesepakatan uji coba sistem secara bertahap (*pilot test*), komitmen menjaga efisiensi kerja staf tanpa lembur berlebihan, serta riwayat koordinasi via pesan profesional terkait mitigasi risiko kendala jaringan.
+-   **Tujuan Transisi (TAIDA):** Perubahan keadaan apa yang diinginkan?
+    -   **Target:** Budi (Manager Operasional)
+    -   **Attention:** Menyadarkan pentingnya pemangkasan waktu rekapitulasi data dari 10 jam menjadi 15 menit melalui modul otomasi.
+    -   **Interest:** Menunjukkan kelayakan teknis sistem melalui prototipe visual dan data uji coba kecil yang akurat.
+    -   **Desire:** Memastikan bahwa sistem baru memberikan nilai nyata berupa keringanan beban kerja staf dan keamanan data.
+    -   **Action:** Menyepakati jadwal uji coba operasional lapangan dan peninjauan berkala (*checkpoint*).
+-   **Peran AI (Pilih satu - Source 14.7):**
+    -   [ ] Cermin (Refleksi diri) | [ ] Pelatih (Latihan respons) | [ ] Penerjemah (Alih ragam bahasa)
+    -   [X] Kopilot (Penyusun draf) | [ ] Mediator (Pencari titik temu) | [ ] Agen Terdelegasi (Tugas terbatas)
+-   **Data Minimum:** Informasi ringkas seputar spesifikasi teknis modul otomasi dan draf agenda uji coba lapangan. *(Peringatan: Dilarang memasukkan data pribadi atau rahasia tanpa dasar sah sesuai Source E.7).*
+-   **Kewenangan Keterlibatan AI:**
+    -   [X] Hanya membantu struktur/kerangka berpikir.
+    -   [X] Memperluas kosakata/repertoar bahasa.
+    -   [ ] Menyusun draf sintesis pesan secara utuh.
+-   **Larangan (Prohibitions):** AI dilarang menggunakan nada agresif, dilarang membuat janji palsu, dan dilarang memberikan penilaian karakter. *Ingat: AI tidak memikul tanggung jawab relasional—beban tanggung jawab tetap pada Anda (Source 14.14).*
+-   **Mitigasi Risiko:** Melakukan penyuntingan ulang secara mandiri untuk memastikan tidak ada istilah teknis berlebihan (*jargon*) yang membingungkan serta memverifikasi kesesuaian tenggat waktu.
+-   **Tinjauan Manusia:** Pembacaan ulang dengan empati penuh untuk memastikan nada komunikasi terdengar profesional, menghargai mitra kerja, dan mencerminkan komitmen etis secara nyata sebelum dikirim.
+
+---
+
+## 4. Panduan Operasional: Prompt Berpusat pada Manusia
+
+Berdasarkan prinsip Bab 14.15 dan 2.12, terapkan panduan berikut saat berinteraksi dengan AI:
+
+-   **Gunakan AI sebagai cermin reflektif (Source 2.12), bukan sebagai hakim karakter.** Jangan meminta AI menentukan identitas atau "siapa sebenarnya" seseorang.
+-   **Gunakan AI untuk memperluas repertoar, bukan menggantikan suara autentik.** AI membantu Anda menemukan alternatif pilihan bahasa, namun Anda yang memilih mana yang paling mewakili martabat Anda.
+-   **Fokus pada Penciptaan Nilai.** Instruksikan AI untuk mencari solusi yang menguntungkan kedua pihak, bukan strategi untuk memenangkan argumen secara sepihak.
+-   **Jangan mendelegasikan empati.** AI bisa mensimulasikan kata-kata empati, namun kehadiran batiniah hanya bisa diberikan oleh Anda sebagai manusia.
+
+---
+
+## 5. Daftar Periksa Etika (The Final Gate)
+
+Gunakan daftar ini sebagai verifikasi akhir sebelum tombol "Kirim" ditekan.
+
+-   [X] Apakah saya tetap memegang tanggung jawab penuh atas dampak relasional dari pesan ini? (Source E.1)
+-   [X] Apakah keluaran AI sudah saya periksa secara manual terhadap fakta, asumsi bias, dan ketepatan nada?
+-   [X] Apakah pesan ini menghormati martabat penerima sebagai pribadi (person) dan bukan sekadar kategori?
+-   [X] Apakah saya telah memastikan AI tidak digunakan untuk menangani konflik merah (konflik personal/etik)?
+-   [X] Apakah saya telah menyamarkan data sensitif sebelum diproses oleh AI?
+
+---
+
+## 6. Pernyataan Transparansi (Sesuai Lampiran E.7)
+
+Jika konteks profesional atau akademik menuntut transparansi, gunakan format standar berikut:
+
+_"Draf pesan ini disusun dengan bantuan AI sebagai kopilot penyusun draf, namun isi, keputusan akhir, dan tanggung jawab sepenuhnya berada pada Farrel Garuda Haryono."_
